@@ -4,7 +4,7 @@
 
 <hr size="3">
 
-<a align="center">DOWNLOAD</a>
+<a align="center">DOWNLOAD (Ver 1.0.0)</a>
 
 <hr size="3">
 
@@ -19,7 +19,6 @@
 消エル灯ニ　捧ゲマショウ
 
 空ノ主ニ捧ゲマショウ
-
 # 概要
 
 Mindustry に V6ユニット を初めとする多くのコンテンツを追加します。
