@@ -1,5 +1,11 @@
 <img src="https://github.com/Figseu-Technology/GreenFortress/raw/main/sprites/logo.png">
 
+<hr size="3">
+
+<a>DOWNLOAD</a>
+
+<hr size="3">
+
 # Green Fortress
 
 鋼ノ城ニ　命一ツ
