@@ -2,7 +2,7 @@
 
 <hr size="3">
 
-<a>DOWNLOAD</a>
+<a align="center">DOWNLOAD</a>
 
 <hr size="3">
 
