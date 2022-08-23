@@ -1,3 +1,5 @@
+![Discord Shield](https://discordapp.com/api/guilds/903942734568632330/widget.png?style=shield)
+
 <img src="https://github.com/Figseu-Technology/GreenFortress/raw/main/sprites/logo.png">
 
 <hr size="3">
