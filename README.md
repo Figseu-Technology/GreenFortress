@@ -4,7 +4,7 @@
 
 <hr size="3">
 
-<a align="center">DOWNLOAD (Ver 1.0.0)</a>
+<a href="https://github.com/Figseu-Technology/GreenFortress/releases/download/V1.0.0/Green.Fortress.1.0.0.zip" align="center">DOWNLOAD (Ver 1.0.0)</a>
 
 <hr size="3">
 
