@@ -1,9 +1,11 @@
 name: "Green Fortress"
 displayName: "[#009F61]Green Fortress EX[]"
 author: "UD Alice"
-description: "大型アップデート！ 新たなユニットやタレットを駆使して山神に挑もう！"
+description: "世界は新たに創造され、我々は文明を再構築する"
 version: "[#009F61]4.0.0[]"
-minGameVersion: "120"
+minGameVersion: "126"
+
+
 
 
 
