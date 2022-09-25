@@ -1,0 +1,7 @@
+localizedName: 烈虫の祭壇
+type: Floor
+itemDrop: scrap
+name: Pinsir-Mtile
+variants: 0
+walkEffect: none
+blendGroup: snow

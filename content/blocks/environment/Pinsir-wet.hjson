@@ -1,0 +1,13 @@
+localizedName: 烈虫の海
+type: Floor
+liquidDrop: water
+speedMultiplier: 0.2
+variants: 0
+isLiquid: true
+status: wet
+statusDuration: 120
+drownUpdateEffect: burning
+walkEffect: wet
+blendGroup: water
+cacheLayer: tar
+drownTime: 140

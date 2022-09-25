@@ -1,0 +1,8 @@
+localizedName: 葬華の川
+type: Floor
+variants: 0
+liquidDrop: litholite_wet
+isLiquid: true
+walkEffect: wet
+blendGroup: water
+cacheLayer: water

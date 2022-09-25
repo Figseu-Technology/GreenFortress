@@ -1,0 +1,6 @@
+localizedName: 太陽の岩
+type: Floor
+itemDrop: silicon
+name: Klee-rock
+variants: 0
+walkEffect: none

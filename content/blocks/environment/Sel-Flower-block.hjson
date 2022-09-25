@@ -1,0 +1,8 @@
+localizedName: 葬華の川
+type: Floor
+variants: 0
+liquidDrop: Flower1
+isLiquid: true
+walkEffect: melting
+blendGroup: water
+cacheLayer: water

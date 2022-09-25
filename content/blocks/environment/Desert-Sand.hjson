@@ -1,0 +1,5 @@
+localizedName: 砂漠地帯
+type: Floor
+name: Desert-Sand
+variants: 0
+walkEffect: none

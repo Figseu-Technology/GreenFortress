@@ -1,0 +1,6 @@
+localizedName: 太陽の草原
+type: Floor
+name: Klee-grass
+variants: 0
+walkEffect: none
+blendGroup: grass

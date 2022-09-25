@@ -1,0 +1,6 @@
+localizedName: 太陽の氷
+type: Floor
+name: Klee-ice
+variants: 0
+walkEffect: none
+blendGroup: ice

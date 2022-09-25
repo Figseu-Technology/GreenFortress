@@ -1,0 +1,13 @@
+localizedName: 葬華の海
+type: Floor
+liquidDrop: Flower1
+speedMultiplier: 0.2
+variants: 0
+isLiquid: true
+status: wet
+statusDuration: 120
+drownUpdateEffect: burning
+walkEffect: wet
+blendGroup: water
+cacheLayer: water
+drownTime: 140
