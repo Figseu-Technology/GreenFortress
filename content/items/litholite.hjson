@@ -1,0 +1,20 @@
+name: 凛煌石
+description: 失われた宝石。 わずかに元あった場所へと移動する性質がある。
+details: 終末砲が放たれた時、人間は死滅したが大部分の生命は存続した。 大地の神により守られた生物は新たな 人類 が生まれるまでこの土地を守り続けた
+hardness: 9
+cost: 8.5
+color: 4EF7DB
+radioactivity: 5.95
+
+research:{
+  parent: litholite_wet
+  requirements:[
+      Sel-Flower-Crystal/60
+  ]
+}
+
+
+
+
+
+

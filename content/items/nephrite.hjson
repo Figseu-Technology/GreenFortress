@@ -1,0 +1,14 @@
+name: ネフィリア鉱石
+description: 強い放射線を放つ危険な鉱石
+details: ネフィリア鉱石は大昔に存在したとされる鉱石。　しかし人類はとある2つの物質を組み合わせたモノをネフィリア鉱石と定義し、本来のネフィリア鉱石は永遠に失われてしまった。　ただ、かろうじて性質は近いものに仕上がった為か本物に近い性能を出すことが可能。
+hardness: 6
+cost: 2.5
+color: ff0006
+radioactivity: 80.95
+
+research:{
+  parent: phase-fabric
+  requirements:[
+      phase-fabric/20
+  ]
+}

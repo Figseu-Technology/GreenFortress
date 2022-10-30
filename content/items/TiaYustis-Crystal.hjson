@@ -1,0 +1,12 @@
+name: ティア · ユスティスの宝玉
+description: ティア · ユスティスの宝玉。 超生物に匹敵する力を持っている。
+hardness: 9
+cost: 75
+color: C7C7C7
+
+research:{
+  parent: TiaYustis-blood
+  requirements:[
+      litholite/5
+  ]
+}
