@@ -4,7 +4,7 @@
 
 <hr size="3">
 
-Coming Soon
+<a href="https://github.com/Figseu-Technology/GreenFortress/releases/download/V4.0.0/GreenFortress.zip">Download (Ver 4.0.0)</a>
 
 <hr size="3">
 
