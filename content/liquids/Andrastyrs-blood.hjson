@@ -1,0 +1,15 @@
+name: ラナ · ゼネレッカの結晶
+description: ラナ · ゼネレッカの祭壇から採取した粉末。 言い伝えによると不老不死の力が込められているとされている。
+heatCapacity: 63.0
+explosiveness: 9500
+viscosity: 0.001
+effect: corroded
+color: A27E56
+barColor: A27E56
+lightColor: A27E5688
+research:{
+  parent: LanaZenerekka
+  requirements:[
+      nephrite/20
+  ]
+}

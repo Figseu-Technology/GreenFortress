@@ -1,0 +1,17 @@
+name: 葬華の蜜
+description: 死をもたらす猛毒の花から抽出した花の蜜。
+details: この惑星に突如として群生し始めた植物。\n群生している地域は瞬く間に赤い海と化し、葬華の花が大量に咲き誇ります。\n葬華の環境下ではフーリア一族も長居することはせずにどこか別の居住地を探しに行く\nところが レネシス一族はこの環境に適応し、葬華を主食として生きているようだ。
+heatCapacity: 2.7
+explosiveness: 9.51
+temperature: 0.03
+viscosity: 0.01
+effect: corroded
+color: FF3C41
+barColor: FF3C41
+lightColor: FF8F9588
+research:{
+  parent: water
+  requirements:[
+      nephrite/20
+  ]
+}

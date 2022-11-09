@@ -1,0 +1,15 @@
+name: セルディニアの結晶
+description: セルディニアの祭壇から採取した粉末。 この粉末の周辺では通常より早く植物が育つようだ。
+heatCapacity: 10.2
+radioactivity: 2800
+viscosity: 0.001
+effect: corroded
+color: 003826
+barColor: 003826
+lightColor: 00382688
+research:{
+  parent: Seldinia
+  requirements:[
+      nephrite/20
+  ]
+}

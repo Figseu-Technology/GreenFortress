@@ -1,0 +1,14 @@
+name: 凛煌石の粉末
+description: 一年中桜が咲き誇る場所でしか取れないと言われる希少な鉱石の粉末
+heatCapacity: 5.0
+viscosity: 0.01
+effect: corroded
+color: 4EF7DB
+barColor: 4EF7DB
+lightColor: 4EF7DB88
+research:{
+  parent: water
+  requirements:[
+      Sel-Flower-Crystal/20
+  ]
+}

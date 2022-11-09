@@ -1,0 +1,15 @@
+name: カヤ · ヴェルメティウスの結晶
+description: カヤ · ヴェルメティウスの祭壇から採取した粉末。 Green Fairy  生命を育む存在。  この世界においてもこれらに位置する者は存在しているようだ。
+heatCapacity: 32.6
+radioactivity: 3900
+viscosity: 0.001
+effect: corroded
+color: 2FE240
+barColor: 2FE240
+lightColor: 2FE24088
+research:{
+  parent: KayaVermettius
+  requirements:[
+      nephrite/20
+  ]
+}
