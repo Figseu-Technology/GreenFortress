@@ -1,0 +1,33 @@
+localizedName: 制圧の玉座
+description: 「制圧の力」を宿す玉座。ほとんどの攻撃を確定で防ぐ強力なシールドを形成する。
+type: ForceProjector
+health: 78000000
+size: 11
+hasPower: true
+liquidCapacity: 700
+canOverdrive: true
+phaseUseTime: 300
+phaseRadiusBoost: 1000
+radius: 250
+shieldHealth: Infinity
+phaseShieldBoost: 94000
+cooldownNormal: 0.5
+cooldownLiquid: 0.02
+cooldownBrokenBase: 0.75
+basePowerDraw: 100
+researchCostMultiplier: 2000
+consumes: {
+  power: 10
+  items: {
+    items: [
+      Sel-Flower-Crystal/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+ End-Key/30
+]
+category: effect
+research: End-Key
