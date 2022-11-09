@@ -1,0 +1,292 @@
+localizedName: カヤ · ヴェルメティウス
+description: 数億年生きたセルディニアの姿。 伝説の龍は実在したのだ。 桜の舞う場所に敵の襲撃と共に飛来する可能性がある。 挑戦して 勇気を示そう。
+details: 島一つ分という通常ユニットと比べると非常に巨大な体をしている。 遺跡の祭壇にはこの生物の名前が記されていたことから神として崇められていた存在ではないかと考えられている。 立線エネルギーでできた浮遊する大きな羽はある別世界の重要な鍵となるだろう。
+health: 19700190007700
+armor: 2800
+hitSize: 160
+drag: 0.18
+speed: 0.2
+accel: 0.19
+flying: true
+buildSpeed: 9
+rotateSpeed: 0.05
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+
+weapons: [
+ {
+  name: plyborder1
+  rotate: true
+  mirror: true
+  inaccuracy: 8
+  x: 50
+  y: 50
+  shots: 2
+  shootCone: 8
+  reload: 2.5
+  shootSound: shoot
+  ejectEffect: casing2Double
+  bullet: {
+   type: BasicBulletType
+   damage: 9
+   height: 18
+   width: 5
+   maxRange: 90
+   speed: 7.5
+   lifetime: 40
+   shootEffect: shootSmall
+   hitEffect: hitFuse
+   smokeEffect: shootSmallSmoke
+  }
+ },
+ {
+ name: plyborder1
+ rotate: true
+ mirror: true
+ inaccuracy: 6
+ x: 50
+ y: 50
+ shootCone: 8
+ reload: 2.5
+ shootSound: shootBig
+ ejectEffect: casing3
+  bullet: {
+   type: BasicBulletType
+   damage: 20
+   height: 35
+   width: 10
+   maxRange: 90
+   homingPower: 200.5
+   homingRange: 360
+   speed: 7.5
+   lifetime: 50
+   smokeEffect: shootBigSmoke
+   shootEffect: shootBig
+   hitEffect: hitFuse
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  mirror: true
+  alternate: true
+  x: 30
+  y: 50
+  shootCone: 5
+  reload: 18
+  shots: 1
+  inaccuracy: 5
+  shootSound: laser
+  velocityRnd: 0.4
+  recoil: 1
+  bullet: {
+   type: ShrapnelBulletType
+   collidesAir: true
+   damage: 380
+   splashDamage: 120
+   splashDamageRadius: 100
+   knockback: 2
+   length: 280
+   width: 30
+   fromColor: 8bf491
+   toColor: 69c48e
+   statusDuration: 120
+   status: melting
+   hitEffect: generatespark
+   shootEffect: sparkShoot
+   hitShake: 4
+   smokeEffect: steam
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  rotateSpeed: 2
+  mirror: false
+  alternate: true
+  x: 0
+  y: -20
+  shootCone: 4
+  spacing: 0.1
+  velocityRnd: 0.4
+  reload: 850
+  shots: 1
+  shootSound: plasmaboom
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 1
+   splashDamage: 1
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 4
+   lifetime: 4000
+   pierce: false
+   homingPower: 200.5
+   homingRange: 360
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: shotgun
+   status: {
+    name: burning
+    speedMultiplier: 1.2
+    reloadMultiplier: 0.4
+    permanent: true
+   }
+   fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 1
+    splashDamageRadius: 8
+    length: 32
+    width: 10
+    fromColor: FFBF00
+    toColor: AC6600
+    damage: 1
+   },
+   frontColor: FFBF00
+   backColor: AC6600
+   trailColor: FFBF00
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: shootBig2
+   smokeEffect: steam
+  }
+ },
+ {
+  name: plyborder1
+  rotate: false
+  rotateSpeed: 0.5
+  mirror: false
+  x: 0
+  y: 80
+  shootY: 0
+  shootCone: 0.1
+  reload: 5500
+  shootSound: red
+  recoil: 4
+  ejectEffect: casing4
+  shootShake: 15
+  bullet: {
+   type: ShrapnelBulletType
+   collidesAir: true
+   damage: 6000
+   splashDamage: 70
+   splashDamageRadius: 1000000
+   knockback: 2
+   length: 3000
+   width: 30
+   fromColor: 8bf491
+   toColor: 69c48e
+   statusDuration: 120
+   status: melting
+   hitEffect: generatespark
+   shootEffect: railShoot
+   hitShake: 4
+   smokeEffect: steam
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  rotateSpeed: 0.5
+  mirror: true
+  alternate: true
+  x: 85
+  y: 95
+  shootCone: 4
+  spacing: 10
+  velocityRnd: 0.4
+  reload: 200
+  shots: 100
+  shootSound: blueRG2
+  ejectEffect: casing4
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 500
+   splashDamage: 40
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 20
+   knockback: 70
+   lifetime: 30
+   pierce: false
+   homingPower: 10.5
+   homingRange: 360
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: bigshellbullet
+   statusDuration: 1200
+   status: {
+    name: tarred
+    healthMultiplier: 0.4
+    speedMultiplier: 1.5
+    damageMultiplier: 0.4
+    reloadMultiplier: 0.4
+    permanent: true
+    effect: hitLiquid
+   },
+   fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 1
+    splashDamageRadius: 80
+    length: 60
+    width: 10
+    fromColor: 3BFFA8
+    toColor: 00EDB4
+    damage: 680
+   }
+   frontColor: 3BFFA8
+   backColor: 00EDB4
+   trailColor: 00EDB4
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: sparkShoot
+   smokeEffect: steam
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  mirror: true
+  inaccuracy: 0.001
+  x: 49
+  y: 10
+  shots: 2
+  shootCone: 8
+  reload: 1.5
+  shootSound: Kaya-loop
+  ejectEffect: casing2Double
+  bullet: {
+   type: LaserBulletType
+   damage: 20
+   length: 200
+   width: 5
+   lifetime: 40
+  }
+ },
+]
+
+research: {
+ parent: Seldinia
+ requirements: [
+  graphite/24000
+  silicon/22000
+  metaglass/20000
+  titanium/28000
+  thorium/20000
+  litholite/15000
+ ]
+}
