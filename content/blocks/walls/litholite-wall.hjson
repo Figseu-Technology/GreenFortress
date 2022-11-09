@@ -1,0 +1,12 @@
+localizedName: 凛煌石の壁
+description: 失われた宝石を使用した防壁ブロックです。
+type: Wall
+health: 80000
+size: 1
+lightningChance: 0.15
+lightningDamage: 60
+requirements: [
+ litholite/30
+]
+category: defense
+research: nephrite-wall-large

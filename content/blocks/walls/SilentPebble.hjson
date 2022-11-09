@@ -1,0 +1,14 @@
+localizedName: 麗命石
+description: 山神が通った道に生成される謎の石。うまく利用すれば敵に大ダメージを与えることができる。
+type: Wall
+health: 15000000000000
+size: 4
+chanceDeflect: 1000
+lightningChance: 1.0
+lightningDamage: 5000
+researchCostMultiplier: 0.1
+requirements: [
+ End-Key/5
+]
+category: defense
+research: End-Key

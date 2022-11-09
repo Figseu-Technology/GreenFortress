@@ -1,0 +1,11 @@
+localizedName: 冥槍山の巨岩
+description: 山神の住む地域に点在する非常に大きな壁。あらゆる攻撃が無効化される。
+type: Wall
+health: 15000000000000
+size: 4
+chanceDeflect: 1000
+requirements: [
+ Andrastyrs-Crystal/5000
+]
+category: defense
+research: Lana-wall-large-F

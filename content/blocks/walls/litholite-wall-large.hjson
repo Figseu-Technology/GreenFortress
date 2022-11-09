@@ -1,0 +1,12 @@
+localizedName: 巨大な凛煌石の壁
+description: 失われた宝石を使用した大きな防壁ブロックです。
+type: Wall
+health: 190000
+size: 2
+lightningChance: 0.25
+lightningDamage: 60
+requirements: [
+ litholite/120
+]
+category: defense
+research: litholite-wall
