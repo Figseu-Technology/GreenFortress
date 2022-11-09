@@ -1,0 +1,18 @@
+localizedName: 冥槍ノ祭壇
+description: 旧都市を制覇した者のみ その真実を知ることができる。
+type: CoreBlock
+health: 15000000000000
+size: 10
+itemCapacity: 900000
+unitCapModifier: 50
+researchCostMultiplier: 100.09
+hasItems: true
+hasLiquids: true
+liquidCapacity: 7000
+unitType: Seldinia
+isFirstTier: false
+requirements: [
+ Andrastyrs-Crystal/200
+]
+category: effect
+research: Lana-wall-large-X

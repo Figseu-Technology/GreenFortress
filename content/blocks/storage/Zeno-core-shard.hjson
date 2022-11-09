@@ -1,0 +1,20 @@
+localizedName: 対超生物用コア シャード
+description: 超生物の出現する環境に適したコアです。ほとんどのユニットの攻撃ではびくともしません。
+type: CoreBlock
+health: 1100000
+size: 3
+itemCapacity: 4200
+unitCapModifier: 8
+researchCostMultiplier: 0.001
+hasItems: true
+hasLiquids: true
+liquidCapacity: 40
+update: alpha
+unitType: Furia
+isFirstTier: true
+requirements: [
+ litholite/1000
+ Seldinia-Crystal/8
+]
+category: effect
+research: core-foundation
