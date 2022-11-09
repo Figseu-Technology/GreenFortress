@@ -1,0 +1,142 @@
+localizedName: フィルレーア · セレアス
+description: 特定の病原体を放ち感染した生命体の身体を侵食する超生物のアリジゴク。討伐不可能。 病、衰弱、摩耗 は彼女が生命へ与える試練。 命が絶たれた場所に敵の襲撃と共に飛来する可能性がある。
+details: 近時代に生まれた新たな妖精。 60才という妖精の中では非常に若い部類に該当し、人間に当てはめると身体と精神年齢は6才にも満たない。 しかし この 山神の娘 に近づいてはならない。 彼女は生まれた瞬間から「侵食の概念」を司り Green Fortress と立線界に 病、衰弱、疲労、摩耗 を生み出した。 今までは一度誕生すれば所持している 星 の数を維持できていたのだが、彼女の力によりそれは時間経過により摩耗し、やがて 死 という形で消滅する。 「彼」にとっては死活問題になるだろう。 概念を司る 妖精 だけがこの「侵食」の影響を受けずに彼女と対等に会話ができる。 妾は侵食なり　妾の腕は生まれた時から存在しない ならば妾が 空間 を 侵食 し、腕にすればよいのだ。
+health: 97800009502800
+armor: 9580000
+hitSize: 100
+drag: 0.5
+speed: 200
+accel: 0.1
+flying: true
+buildSpeed: 120.8
+rotateSpeed: 120.2
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+
+weapons: [
+ {
+  name: FilareaCereasWeapon
+  reload: 2000
+  mirror: false
+  x: 0
+  y: 0
+  shootY: 60
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: A-crack
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: A-crack
+  velocityRnd: 0.6
+  spacing: 0.0001
+  shots: 15
+  bullet: {
+   type: ShrapnelBulletType
+   serrations: 1
+   damage: Infinity
+   lifetime: 10
+   length: 15
+   width: 32
+   height: 100
+   frontColor: 000000
+   backColor: 000000
+   trailColor: 000000
+   hitSound: A-crack
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 20
+   status: burning
+   statusDuration: 920
+   knockback: 15
+   splashDamage: Infinity
+   splashDamageRadius: 210000
+   fragBullets: 100
+   fragCone: 0.0001
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  rotateSpeed: 1.5
+  mirror: true
+  alternate: true
+  x: 65
+  y: 95
+  shootCone: 4
+  spacing: 10
+  velocityRnd: 0.4
+  reload: 200
+  shots: 100
+  shootSound: m-pound
+  ejectEffect: casing4
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 3000
+   splashDamage: 500
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 20
+   knockback: 70
+   lifetime: 30
+   pierce: false
+   homingPower: 10.5
+   homingRange: 360
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 18
+   fragCone: 0.0001
+   hitSound: A-crack
+   status: burning
+   statusDuration: 1200
+   fragBullet: {
+    type: LiquidBulletType
+    incendAmount: 20
+    incendSpread: 50
+    incendChance: 1.9
+    serrations: 1
+    splashDamageRadius: 80
+    length: 60
+    width: 30
+    fromColor: CA0012
+    toColor: 89000C
+    damage: 8000
+    status: burning
+    liquid: oil
+   }
+   frontColor: CA0012
+   backColor: 89000C
+   trailColor: 200007
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: sparkShoot
+   smokeEffect: steam
+  }
+ },
+]
+
+research: {
+ parent: LanaZenerekka
+ requirements: [
+  graphite/690000
+  silicon/920000
+  metaglass/800000
+  titanium/780000
+  thorium/200000
+  litholite/90000
+ ]
+}
