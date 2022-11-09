@@ -1,0 +1,167 @@
+localizedName: トキソピッド (超生物)
+description: 山神の力によって機械から生命体へと変貌したトキソピッド。 葬華の影響によって凶暴化しており機械のトキソピッドとは比べ物にならない強さを誇る。
+groundLayer: 75
+drawShields: false
+type: legs
+speed: 0.4
+hitSize: 45
+health: 169000000000
+buildSpeed: 3.5
+faceTarget: true
+commandLimit: 4
+armor: 45
+drag: 0.5
+range: 380
+outlineColor: 36363c
+flying: false
+targetAir: true
+rotateSpeed: 1
+legCount: 8
+legMoveSpace: 0.8
+legContinuousMove: true
+legPairOffset: 3
+legLength: 75.5
+legExtension: -15
+legBaseOffset: 10
+legLengthScl: 0.93
+legSpeed: 0.16
+rippleScale: 3
+legSplashDamage: 1800
+legSplashRange: 40
+allowLegStep: true
+hovering: true
+weapons: [
+ {
+  name: Zeno-large-mount
+  reload: 60
+  alternate: true
+  mirror: true
+  x: 10
+  y: 0
+  shootY: 10
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: DeadeyeShoot
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: lasercharge
+  velocityRnd: 0.6
+  spacing: 8
+  shots: 3
+  bullet: {
+   type: ShrapnelBulletType
+   serrations: 5
+   damage: 12000
+   lifetime: 10
+   length: 200
+   width: 30
+   frontColor: FFABD4
+   toColor: FF0075
+   hitSound: artilleryHit
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 10
+   status: shocked
+   statusDuration: 120
+   pierce: false
+   knockback: 15
+   splashDamage: 500
+   splashDamageRadius: 50000
+  }
+ },
+ {
+  name: Zeno-Toxopid-Cannon
+  reload: 1500
+  alternate: true
+  mirror: false
+  x: 0
+  y: -15
+  shootY: 20
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: red
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: lasercharge
+  velocityRnd: 0.6
+  spacing: 0
+  shots: 1
+  bullet: {
+   type: FireBulletType
+   speed: 9
+   serrations: 5
+   damage: 12000
+   lifetime: 70
+   length: 200
+   width: 32
+   height: 32
+   frontColor: ddffff
+   backColor: bbeeff
+   trailColor: 88ffff
+   hitSound: artilleryHit
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 10
+   status: shocked
+   statusDuration: 120
+   pierce: false
+   knockback: 15
+   splashDamage: 500
+   splashDamageRadius: 210000
+   fragBullets: 100
+   fragCone: 0.0001
+   fragBullet: {
+    type: MissileBulletType
+    damage: 500
+    splashDamage: 40
+    splashDamageRadius: 32
+    height: 20
+    width: 10
+    speed: 20
+    knockback: 70
+    lifetime: 30
+    pierce: false
+    homingPower: 10.5
+    homingRange: 360
+    weaveScale: 8
+    weaveMag: 2
+    fragBullets: 1
+    fragCone: 0.0001
+    hitSound: bigshellbullet
+    statusDuration: 1200
+    frontColor: 3BFFA8
+    backColor: 00EDB4
+    trailColor: 00EDB4
+    trailChance: 0.8
+    hitEffect: hitLancer
+    shootEffect: sparkShoot
+    smokeEffect: steam
+   }
+  }
+ }
+]
+
+research:{
+ parent: toxopid
+ requirements:[
+  silicon/150000
+  surge-alloy/120000
+  phase-fabric/60000
+  plastanium/30000
+  Sel-Flower-Crystal/3000
+ ]
+}

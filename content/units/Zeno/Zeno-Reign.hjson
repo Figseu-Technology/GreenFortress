@@ -1,0 +1,90 @@
+localizedName: レイン (超生物)
+description: 山神の力によって機械から生命体へと変貌したレイン。 生物へと変化したことにより彼らは力と感情を手に入れたが、同時に死というものを知ることになった。
+commandLimit: 10
+speed: 0.55555
+drag: 0.08
+accel: 0.085
+boostMultiplier: 3.333334
+mineSpeed: 36
+mineTier: 27
+rotateSpeed: 2.795
+baseRotateSpeed: 1.777
+lightRadius: 90
+lightColor: 20c3ed
+lightOpacity: 0.3
+mechFrontSway: 2.24
+mechSideSway: 1.879
+health: 200000000000
+mineSound: beam
+armor: 130
+range: 310
+maxRange: 440
+mechStepShake: 5
+mechStride: -1.2
+landShake: 21
+itemCapacity: 4800
+hitSize: 39
+rotateShooting: true
+mechStepParticles: true
+singleTarget: true
+lowAltitude: true
+canBoost: true
+destructibleWreck: false
+canDrown: true
+mechFrontSway: -0.1
+mechSideSway: 1.2
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+engineOffset: 19
+engineSize: 7
+lowAltitude: true
+flying: false
+
+weapons: [
+ {
+  name: Zeno-Reign-weapon
+  reload: 5
+  alternate: true
+  mirror: true
+  x: 20
+  y: 0
+  shootY: 10
+  recoil: 3
+  shake: 2
+  rotateSpeed: 2
+  rotate: false
+  shootSound: artilleryHit
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: lasercharge
+  velocityRnd: 0.6
+  spacing: 8
+  shots: 1
+  bullet: {
+   type: BasicBulletType
+   speed: 10
+   damage: 5000
+   knockback: 10.01
+   lifetime: 100
+   height: 30
+   width: 18
+   statusDuration: 120
+   status: freezing
+   trailChance: 0.8
+   hitEffect: hitYellowLaser
+   shootEffect: producesmoke
+   hitShake: 4
+   smokeEffect: shootBigSmoke
+  }
+ }
+]
+
+research:{
+ parent: reign
+ requirements:[
+  silicon/150000
+  surge-alloy/120000
+  phase-fabric/60000
+  plastanium/30000
+  Sel-Flower-Crystal/3000
+ ]
+}
