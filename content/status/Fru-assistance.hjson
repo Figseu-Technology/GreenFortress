@@ -1,0 +1,16 @@
+name: 歪み
+description: ユニットの調子を狂わせ、回復量を低下させる
+effect: {
+ type: ParticleEffect
+ particles: 1
+ region: exogenesis-shape2
+ lifetime: 14
+ length: 0
+ sizeFrom: 0
+ sizeTo: 5
+ colorFrom: 73FFAEFF
+ colorTo: 73FFAEFF
+}
+damage: -25
+healthMultiplier: 0.95
+permanent: true
