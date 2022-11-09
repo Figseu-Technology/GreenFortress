@@ -1,0 +1,91 @@
+localizedName: ヴェルセポネ
+description: 大地を支配する大型の蜘蛛
+groundLayer: 75
+drawShields: false
+type: legs
+speed: 0.34
+hitSize: 52
+health: 54000
+buildSpeed: 3.5
+faceTarget: true
+commandLimit: 4
+armor: 45
+drag: 0.5
+range: 380
+outlineColor: 36363c
+flying: false
+targetAir: true
+rotateSpeed: 1
+legCount: 8
+legMoveSpace: 0.8
+legContinuousMove: true
+legPairOffset: 3
+legLength: 75.5
+legExtension: -15
+legBaseOffset: 10
+legLengthScl: 0.93
+legSpeed: 0.16
+rippleScale: 3
+legSplashDamage: 720
+legSplashRange: 40
+allowLegStep: true
+hovering: true
+weapons: [
+ {
+  name: plyborder1
+  reload: 1500
+  alternate: true
+  mirror: false
+  x: 0
+  y: 10
+  shootY: 9
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: DeadeyeShoot
+  shootCone: 100
+  minWarmup: 0.9
+  shootStatusDuration: 530
+  shootStatus: unmoving
+  chargeSound: lasercharge
+  velocityRnd: 0.6
+  spacing: 15
+  shots: 5
+  bullet: {
+   type: ShrapnelBulletType
+   serrations: 5
+   damage: 12000
+   lifetime: 1000
+   length: 200
+   width: 30
+   frontColor: FFABD4
+   toColor: FF0075
+   hitSound: artilleryHit
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 10
+   status: shocked
+   statusDuration: 120
+   knockback: 15
+   splashDamage: 500
+   splashDamageRadius: 50000
+  }
+ }
+]
+
+research:{
+ parent: Renesys
+ requirements:[
+  silicon/150000
+  surge-alloy/120000
+  phase-fabric/60000
+  plastanium/30000
+  Sel-Flower-Crystal/3000
+ ]
+}

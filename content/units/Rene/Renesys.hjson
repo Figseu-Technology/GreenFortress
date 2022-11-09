@@ -1,0 +1,84 @@
+localizedName: レネシス
+description: 大地の王を夢見る大蜘蛛の幼生
+details: 幼生時代のレネシス一族は前面が硬い殻により守られており、フーリア等の天敵から身を守っているようだ。 前面の殻は成長と共に後ろ側に移動していき、成体になると立派な蜘蛛になる。
+groundLayer: 75
+drawShields: false
+type: legs
+speed: 0.42
+hitSize: 52
+health: 22000
+buildSpeed: 2
+faceTarget: true
+commandLimit: 6
+armor: 7
+drag: 0.2
+range: 180
+outlineColor: 36363c
+flying: false
+targetAir: true
+rotateSpeed: 1.5
+legCount: 6
+legMoveSpace: 1.1
+legContinuousMove: true
+legLength: 18.5
+legBaseOffset: 19
+legSpeed: 0.001
+rippleScale: 2.8
+legSplashDamage: 56
+legSplashRange: 30
+allowLegStep: true
+hovering: true
+weapons: [
+ {
+  name: plyborder1
+  reload: 200
+  alternate: true
+  mirror: false
+  x: 0
+  y: 10
+  shootY: 9
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: desolationShoot
+  shootCone: 100
+  minWarmup: 0.9
+  bullet: {
+   type: ShrapnelBulletType
+   damage: 610
+   lifetime: 10
+   length: 1500
+   height: 16
+   frontColor: FFABD4
+   toColor: FF0075
+   hitSound: artilleryHit
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: bigShockwave
+   despawnEffect: flakExplosionBig
+   lightningLength: 70
+   lightningLengthRand: 24
+   lightningDamage: 24
+   lightning: 9
+   hitShake: 12
+   status: shocked
+   statusDuration: 120
+   knockback: 2
+   splashDamage: 120
+   splashDamageRadius: 500
+  }
+ }
+]
+
+research:{
+ parent: spiroct
+ requirements:[
+  silicon/50000
+  surge-alloy/13200
+  phase-fabric/23200
+  plastanium/31700
+  Sel-Flower-Crystal/12000
+ ]
+}

@@ -1,0 +1,96 @@
+localizedName: ティア · ユスティス
+description: レネシス一族の最終形態。 この生物が天敵であるセルディニアを狩った時、歴史が大きく変わると言い伝えられている。
+groundLayer: 87
+drawShields: false
+type: legs
+speed: 0.27
+hitSize: 94
+health: 300000
+buildSpeed: 6
+faceTarget: true
+commandLimit: 10
+armor: 300
+drag: 0.5
+outlineColor: 36363c
+flying: false
+targetAir: true
+rotateSpeed: 0.7
+legCount: 10
+legMoveSpace: 0.3
+legContinuousMove: true
+lockLegBase: true
+legPairOffset: 2
+legLength: 152
+legExtension: -20
+legBaseOffset: 28
+legLengthScl: 1
+legSpeed: 0.7
+rippleScale: 9
+legSplashDamage: 3700
+legSplashRange: 100
+allowLegStep: true
+hovering: true
+
+weapons: [
+ {
+  name: plyborder1
+  rotate: false
+  mirror: false
+  x: 0
+  y: 10.5
+  shootCone: 2
+  reload: 500
+  shootSound: bigshellbullet
+  recoil: 4
+  ejectEffect: casing4
+  spacing: 15
+  shots: 3
+  bullet: {
+   type: ShrapnelBulletType
+   damage: 2400
+   knockback: 50
+   length: 500
+   width: 7
+   lifetime: 0.5
+   statusDuration: 9000
+   fragBullets: 150
+   fragCone: 0.01
+   hitSound: A-x10
+   fragBullet: {
+    type: MissileBulletType
+    homingPower: 10.5
+    homingRange: 360
+    serrations: 1
+    spacing: 10
+    speed: 20
+    lifetime: 3000
+    splashDamageRadius: 80
+    height: 30
+    width: 10
+    fromColor: FF8C00
+    toColor: 804200
+    damage: 20
+   }
+   trailChance: 0.8
+   fromColor: 563200
+   toColor: 000000
+   hitEffect: massiveExplosion
+   pierceEffect: railHit
+   updateEffect: railTrail
+   shootEffect: sparkShoot
+   hitShake: 10
+   smokeEffect: shootBig2
+  }
+ }
+]
+
+research:{
+ parent: Vercepone
+ requirements:[
+  silicon/150000
+  surge-alloy/120000
+  phase-fabric/60000
+  plastanium/30000
+  Sel-Flower-Crystal/3000
+ ]
+}
