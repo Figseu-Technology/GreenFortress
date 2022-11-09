@@ -1,0 +1,59 @@
+localizedName: 葬華精霊
+description: 葬華の周囲に生息する小型の妖精。 冥槍山に侵入した外敵を麻痺させ、獲物は大蜘蛛に処理して貰っているようだ。
+health: 500
+armor: 970000
+hitSize: 0.1
+speed: 8
+accel: 20
+drag: 0.09
+flying: true
+rotateSpeed: 8.7
+rotateShooting: false
+lowAltitude: true
+trailX: 15
+trailY: -6
+trailScl: 3
+trailLength: 45
+commandLimit: 6
+engineOffset: 0
+engineSize: 8
+circleTarget: true
+
+weapons: [
+ {
+  name: plyborder1
+  rotate: true
+  mirror: false
+  inaccuracy: 0.01
+  x: 0
+  y: 0
+  shots: 1
+  shootCone: 8
+  reload: 10.5
+  shootSound: HAIshot2
+  ejectEffect: casing2Double
+  bullet: {
+   type: BasicBulletType
+   damage: 20
+   height: 18
+   width: 5
+   maxRange: 90
+   speed: 7.5
+   lifetime: 40
+   shootEffect: sparkShoot
+   hitEffect: hitFuse
+   smokeEffect: shootSmallSmoke
+  }
+ }
+]
+
+research:{
+  parent: Lana-wall-large-F
+  requirements:[
+      graphite/2000
+      silicon/1000
+      metaglass/1000
+      titanium/4000
+      thorium/1000
+  ]
+}

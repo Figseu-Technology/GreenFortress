@@ -1,0 +1,100 @@
+localizedName: レネート
+description: 冥槍山周辺を飛んでいる生命体。山神が現れた時、彼らは手下になり こちらに突っ込んでくる。
+health: 3200
+armor: 3000
+hitSize: 8
+speed: 4.5
+accel: 5.3
+flying: true
+buildSpeed: 0.7
+rotateSpeed: 2.7
+rotateShooting: true
+lowAltitude: false
+trailX: 15
+trailY: -6
+trailScl: 3
+trailLength: 45
+commandLimit: 6
+
+weapons: [
+ {
+  name: plyborder1
+  x: 0
+  y: 0
+  shootY: 0
+  recoil: 0
+  reload: 120
+  rotate: false
+  mirror: false
+  ignoreRotation: true
+  soundPitchMin: 1.5
+  soundPitchMax: 1.5
+  velocityRnd: 1
+  lengthRand: 1
+  shots: 20
+  shootSound: explosionbig
+  inaccuracy: 360
+  shootCone: 360
+  bullet: {
+   type: BombBulletType
+   speed: 3
+   range: 24
+   drag: 0.0125
+   lifetime: 15
+   incendAmount: 6
+   incendSpread: 20
+   incendChance: 1
+   killShooter: true
+   keepVelocity: true
+   damage: 25
+   width: 14
+   height: 18
+   frontColor: ffcc44
+   backColor: ea690f
+   shootEffect: flakExplosion
+   smokeEffect: shockwave
+   despawnEffect: flakExplosion
+   hitEffect: hitLancer
+   pierce: false
+   knockback: 1
+   bulletSprite: shell
+   fragBullets: 4
+   splashDamage: 40
+   splashDamageRadius: 36
+   fragBullets: 6
+   fragVelocityMin: 0.15
+   fragVelocityMax: 0.75
+   fragBullet: {
+    type: LiquidBulletType
+    drag: 0.075
+    lifetime: 150
+    damage: 3
+    incendAmount: 6
+    incendSpread: 20
+    incendChance: 0.6
+    collidesAir: false
+    width: 15
+    height: 15
+    despawnEffect: none
+    hitEffect: none
+    frontColor: f0511d
+    backColor: f0511d
+    pierce: true
+    status: burning
+    statusDuration: 900
+    liquid: oil
+   }
+  }
+ }
+]
+
+research:{
+  parent: Lana-wall-large-F
+  requirements:[
+      graphite/2000
+      silicon/1000
+      metaglass/1000
+      titanium/4000
+      thorium/1000
+  ]
+}

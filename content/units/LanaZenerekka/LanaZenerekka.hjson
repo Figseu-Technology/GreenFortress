@@ -1,0 +1,180 @@
+localizedName: ラナ · ゼネレッカ
+description: 空の王 沈めし時。 大地の王 目覚める。 葬華に蝕まれた大地を居城とし。 あらゆる生命を消滅させる。 葬華の群生する場所に敵の襲撃と共に現れる可能性がある。
+details: 別名 アンドラスティルス。 初めて発見された時はこの名前で呼ばれていたが、祭壇の古代文書から本来の名前が判明した。 しかし発見と言ってもまだ霧の中でうっすらとその姿が見えたくらいであり、蜘蛛のような姿をしていること以外は何も分かっていない。
+groundLayer: 75
+drawShields: false
+type: legs
+speed: 0.1
+hitSize: 94
+health: 37800009502800
+buildSpeed: 9.4
+faceTarget: true
+commandLimit: 50
+armor: 6000
+drag: 0.5
+outlineColor: 36363c
+flying: false
+targetAir: true
+rotateSpeed: 0.5
+legCount: 12
+legMoveSpace: 0.3
+legContinuousMove: true
+lockLegBase: true
+legPairOffset: 3
+legLength: 204
+legExtension: -25
+legBaseOffset: 53
+legLengthScl: 1
+legSpeed: 0.16
+rippleScale: 10.5
+legSplashDamage: Infinity
+legSplashRange: 150
+allowLegStep: true
+hovering: true
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+
+weapons: [
+ {
+  name: MountainGodWarning
+  rotate: false
+  mirror: false
+  x: 0
+  y: 4.5
+  shootCone: 2
+  reload: 1500
+  shootSound: WheelingGearsSingle
+  recoil: 4
+  ejectEffect: casing4
+  spacing: 15
+  shots: 5
+  bullet: {
+   type: ShrapnelBulletType
+   damage: Infinity
+   knockback: 50
+   length: 500
+   width: 0.01
+   lifetime: 0.1
+   statusDuration: 9000
+   fragBullets: 150
+   fragCone: 0.01
+   hitSound: A-x10
+   status: {
+    name: overclock
+    speedMultiplier: 0.0
+    reloadMultiplier: 0.0
+    permanent: true
+    effect: overdriven
+   }
+   fragBullet: {
+    type: MissileBulletType
+    homingPower: 10.5
+    homingRange: 360
+    serrations: 1
+    spacing: 10
+    speed: 20
+    lifetime: 3000
+    splashDamageRadius: 80
+    height: 30
+    width: 10
+    fromColor: FF8C00
+    toColor: 804200
+    damage: 9900
+    status: burning
+   }
+   trailChance: 0.8
+   fromColor: 563200
+   toColor: 000000
+   hitEffect: massiveExplosion
+   pierceEffect: railHit
+   updateEffect: railTrail
+   shootEffect: sparkShoot
+   hitShake: 10
+   smokeEffect: shootBig2
+  }
+ },
+ {
+  name: Rain-Justice
+  rotate: true
+  rotateSpeed: 0.5
+  mirror: true
+  x: 90
+  y: -90
+  shootX: -12
+  shootY: -32
+  shootCone: 4
+  spacing: 10
+  velocityRnd: 0.4
+  reload: 200
+  shots: 100
+  shootSound: m-pound
+  ejectEffect: casing4
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 990000000
+   splashDamage: 40000
+   splashDamageRadius: 10000
+   height: 20
+   width: 10
+   speed: 20
+   knockback: 70
+   lifetime: 30
+   pierce: false
+   homingPower: 10.5
+   homingRange: 360
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: bigshellbullet
+   statusDuration: 1200
+   status: burning
+   fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 1
+    splashDamageRadius: 80
+    length: 60
+    width: 10
+    fromColor: 3900FF
+    toColor: 1A0073
+    damage: 5000
+    status: {
+    name: blasted
+    speedMultiplier: 0.1
+    damageMultiplier: 0.1
+    reloadMultiplier: 0.1
+    permanent: true
+    effect: hitLiquid
+   }
+   statusDuration: 600
+   }
+   frontColor: 3900FF
+   backColor: 1A0073
+   trailColor: 1A0073
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: sparkShoot
+   smokeEffect: steam
+  }
+ }
+]
+
+research:{
+ parent: TiaYustis
+ requirements:[
+  silicon/150000
+  surge-alloy/120000
+  phase-fabric/60000
+  plastanium/30000
+  Sel-Flower-Crystal/3000
+ ]
+}
+
+abilities: [
+ {
+  type: mindustry.entities.abilities.UnitSpawnAbility
+  unit: Hotaru
+  spawnTime: 500
+  spawnY: 0
+ }
+]
