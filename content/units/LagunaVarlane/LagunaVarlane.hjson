@@ -1,0 +1,180 @@
+localizedName: ラグナ · バーレーン
+description: セルディニアを宿主とする千年に一度産まれる超生物のムカデ。 あらゆる命を焼き尽くし新たな時代の土台を創る。 滅亡した都市に敵の襲撃と共に飛来する可能性がある。
+details: 立線界で炎の妖精と呼ばれている大型の生物。終末の時代を創り出した張本人
+health: 7900
+armor: 98
+hitSize: 100
+drag: 0.18
+speed: 0.7
+accel: 0.15
+flying: true
+buildSpeed: 9
+rotateSpeed: 0.2
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+
+weapons: [
+ {
+  name: spacetimecannon
+  reload: 95
+  mirror: false
+  x: 0
+  y: 0
+  shootY: 30
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: red
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: lasercharge
+  velocityRnd: 0.6
+  spacing: 0
+  shots: 1
+  shootStatusDuration: 550
+  shootStatus: unmoving
+  bullet: {
+   type: ShrapnelBulletType
+   serrations: 1
+   damage: 270
+   lifetime: 1.2
+   length: 2000
+   width: 32
+   height: 100
+   frontColor: CA0012
+   backColor: 89000C
+   trailColor: 200007
+   hitSound: stringmake
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 20
+   status: burning
+   statusDuration: 920
+   knockback: 15
+   splashDamage: 100
+   splashDamageRadius: 210000
+   fragBullets: 100
+   fragCone: 0.0001
+   fragBullet: {
+    type: MissileBulletType
+    damage: 5
+    splashDamage: 1
+    splashDamageRadius: 32
+    height: 20
+    width: 10
+    speed: 20
+    knockback: 70
+    lifetime: 500
+    pierce: false
+    homingPower: 10.5
+    homingRange: 360
+    weaveScale: 8
+    weaveMag: 2
+    fragBullets: 1
+    fragCone: 0.0001
+    hitSound: stringsolid
+    statusDuration: 1200
+    frontColor: CA0012
+    backColor: 89000C
+    trailColor: 200007
+    trailChance: 0.8
+    hitEffect: hitLancer
+    shootEffect: sparkShoot
+    smokeEffect: steam
+    status: burning
+   }
+  }
+ },
+ {
+  name: plyborder1
+  rotate: true
+  rotateSpeed: 1.5
+  mirror: true
+  alternate: true
+  x: 65
+  y: -75
+  shootCone: 4
+  spacing: 10
+  velocityRnd: 0.4
+  reload: 200
+  shots: 100
+  shootSound: m-pound
+  ejectEffect: casing4
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 10
+   splashDamage: 4
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 20
+   knockback: 70
+   lifetime: 30
+   pierce: false
+   homingPower: 10.5
+   homingRange: 360
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: bigshellbullet
+   status: burning
+   statusDuration: 1200
+   fragBullet: {
+    type: LiquidBulletType
+    incendAmount: 20
+    incendSpread: 50
+    incendChance: 1.9
+    serrations: 1
+    splashDamageRadius: 80
+    length: 60
+    width: 10
+    fromColor: CA0012
+    toColor: 89000C
+    damage: 6
+    status: burning
+    liquid: oil
+   }
+   frontColor: CA0012
+   backColor: 89000C
+   trailColor: 200007
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: sparkShoot
+   smokeEffect: steam
+  }
+ },
+]
+
+research: {
+ parent: Seldinia
+ requirements: [
+  graphite/3900
+  silicon/2200
+  metaglass/2000
+  titanium/3800
+  thorium/2000
+  litholite/50
+ ]
+}
+
+abilities: [
+ {
+  type: mindustry.entities.abilities.ForceFieldAbility
+  max: 210
+  radius: 200
+ }
+]
