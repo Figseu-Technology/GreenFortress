@@ -1,0 +1,54 @@
+localizedName: 硫黄溶鉱炉
+description: ピラタイトを燃料とし、石油から硫黄を製造します。
+type: GenericSmelter
+health: 640
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+itemCapacity: 50
+liquidCapacity: 20
+updateEffect: oily
+floating: true
+craftEffect: freezing
+outputItem: sulfur/1
+consumes: {
+ power: 0.5
+ items: {
+  items: [
+   pyratite/10
+  ]
+ }
+ liquid: {
+  liquid: oil
+  amount: 0.2
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: build
+loopSoundVolume: 1.75
+ambientSound: cutter
+ambientSoundVolume: 0.75
+
+requirements: [
+ thorium/20
+ lead/30
+ graphite/25
+]
+
+category: crafting
+research: blast-mixer
+
+
+
+
+
+
+
+
+
+
+

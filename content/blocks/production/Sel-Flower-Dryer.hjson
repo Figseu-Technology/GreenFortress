@@ -1,0 +1,42 @@
+localizedName: 葬華蜜凝縮機
+description: 葬華の蜜を凝縮し、結晶にします。
+type: GenericSmelter
+health: 1080
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 300
+itemCapacity: 200
+liquidCapacity: 1000
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputItem: Sel-Flower-Crystal/1
+consumes: {
+ power: 4
+ items: {
+  items: [
+   pyratite/50
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 10
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: build
+loopSoundVolume: 1.75
+ambientSound: build
+ambientSoundVolume: 0.75
+
+requirements: [
+ nephrite/30
+ graphite/57
+]
+
+category: crafting
+research: carburizing-furnace

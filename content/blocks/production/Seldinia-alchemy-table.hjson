@@ -1,0 +1,42 @@
+localizedName: 緑の調合台
+description: セルディニアの結晶を宝石に変換します。
+type: GenericSmelter
+health: 72000
+size: 8
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 1200
+canOverdrive: false
+itemCapacity: 2000
+liquidCapacity: 80000
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputItem: Seldinia-Crystal/1
+consumes: {
+ items: {
+  items: [
+   litholite/1000
+  ]
+ }
+ liquid: {
+  liquid: Seldinia-blood
+  amount: 720
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: grinding
+ambientSoundVolume: 0.75
+
+requirements: [
+ Sel-Flower-Crystal/2000
+ graphite/3800
+]
+
+category: crafting
+research: Seldinia-blood

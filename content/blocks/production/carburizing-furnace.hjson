@@ -1,0 +1,37 @@
+localizedName: ネフィリア圧縮機
+description: フェーズファイバーと硫黄からネフィリア鉱石を製造します。
+type: GenericSmelter
+health: 820
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+itemCapacity: 60
+updateEffect: shieldBreak
+craftEffect: plasticExplosion
+outputItem: nephrite/1
+consumes: {
+ power: 3
+ items: {
+  items: [
+   phase-fabric/33
+   sulfur/25
+  ]
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: shield
+ambientSoundVolume: 0.75
+
+requirements: [
+ titanium/150
+ thorium/100
+ metaglass/100
+ silicon/110
+ graphite/100
+]
+category: crafting
+research: alloy-smelter

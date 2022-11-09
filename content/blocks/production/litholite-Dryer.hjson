@@ -1,0 +1,42 @@
+localizedName: 凛煌石結晶凝縮機
+description: 凛煌石の結晶を凝縮し、宝石にします。
+type: GenericSmelter
+health: 2000
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 900
+itemCapacity: 200
+liquidCapacity: 1000
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputItem: litholite/1
+consumes: {
+ power: 10
+ items: {
+  items: [
+   pyratite/200
+  ]
+ }
+ liquid: {
+  liquid: litholite_wet
+  amount: 10
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: grinding
+ambientSoundVolume: 0.75
+
+requirements: [
+ Sel-Flower-Crystal/170
+ graphite/210
+]
+
+category: crafting
+research: Sel-Flower-dissolver

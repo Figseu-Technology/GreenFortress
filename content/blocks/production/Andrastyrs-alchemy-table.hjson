@@ -1,0 +1,42 @@
+localizedName: 山神の調合台
+description: ラナ · ゼネレッカの結晶を宝石に変換します。
+type: GenericSmelter
+health: 7500000002800
+size: 8
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 75000
+canOverdrive: false
+itemCapacity: 2000
+liquidCapacity: 8000000000000
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputItem: Andrastyrs-Crystal/1
+consumes: {
+ items: {
+  items: [
+   litholite/1000
+  ]
+ }
+ liquid: {
+  liquid: Andrastyrs-blood
+  amount: 750
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: grinding
+ambientSoundVolume: 0.75
+
+requirements: [
+ Sel-Flower-Crystal/2000
+ KayaVermettius-Crystal/50
+]
+
+category: crafting
+research: Andrastyrs-blood

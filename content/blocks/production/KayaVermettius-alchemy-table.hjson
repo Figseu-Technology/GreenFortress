@@ -1,0 +1,42 @@
+localizedName: 空の調合台
+description: カヤ · ヴェルメティウスの結晶を宝石に変換します。
+type: GenericSmelter
+health: 1970000000
+size: 8
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 75000
+canOverdrive: false
+itemCapacity: 2000
+liquidCapacity: 80000
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputItem: KayaVermettius-Crystal/1
+consumes: {
+ items: {
+  items: [
+   litholite/1000
+  ]
+ }
+ liquid: {
+  liquid: KayaVermettius-blood
+  amount: 735
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: grinding
+ambientSoundVolume: 0.75
+
+requirements: [
+ Sel-Flower-Crystal/2000
+ TiaYustis-Crystal/50
+]
+
+category: crafting
+research: KayaVermettius-blood
