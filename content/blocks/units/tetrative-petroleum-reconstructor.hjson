@@ -1,0 +1,37 @@
+name: 六次元式再構成工場
+description: 搬入したユニットを第6段階にアップグレードします。
+type: Reconstructor
+health: 18000
+size: 9
+constructTime: 3600
+itemCapacity: 3000
+upgrades: [
+ [Frusia,Seldinia]
+ [Vercepone,TiaYustis]
+]
+consumes: {
+ power: 9
+ items: {
+  items: [
+   sulfur/2600
+   surge-alloy/1400
+   phase-fabric/1700
+   plastanium/1600
+   litholite/500
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 1
+ }
+}
+requirements: [
+ sulfur/4000
+ thorium/3000
+ surge-alloy/1500
+ metaglass/1500
+ plastanium/600
+ litholite/120
+]
+category: units
+research: exponential-petroleum-reconstructor

@@ -1,0 +1,41 @@
+name: 五次元式再構成工場
+description: 搬入したユニットを第5段階にアップグレードします。 また、セルディニアを第5段階に戻すこともできます。 葬華の蜜を使用する為、一部のユニットに寄生虫が付くことがあります。
+type: Reconstructor
+health: 1900
+size: 7
+constructTime: 2100
+upgrades: [
+ [scepter,reign]
+ [arkyid,toxopid]
+ [vela,corvus]
+ [antumbra,eclipse]
+ [quad,Parasitized-Oct]
+ [sei,omura]
+ [Furia,Frusia]
+ [Renesys,Vercepone]
+ [Seldinia,Frusia]
+]
+consumes: {
+ power: 7
+ items: {
+  items: [
+   sulfur/1500
+   phase-fabric/350
+   surge-alloy/500
+   plastanium/550
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 1
+ }
+}
+requirements: [
+ lead/1500
+ titanium/2500
+ thorium/650
+ plastanium/450
+ sulfur/800
+]
+category: units
+research: multiplicative-petroleum-reconstructor

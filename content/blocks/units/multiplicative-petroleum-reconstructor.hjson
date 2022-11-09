@@ -1,0 +1,36 @@
+name: 四次元式再構成工場
+description: 搬入したユニットを第4段階にアップグレードします。
+type: Reconstructor
+health: 950
+size: 5
+constructTime: 1620
+upgrades: [
+ [fortress,scepter]
+ [quasar,vela]
+ [zenith,antumbra]
+ [mega,quad]
+ [bryde,Furia]
+ [spiroct,Renesys]
+]
+consumes: {
+ power: 4
+ items: {
+  items: [
+   sulfur/900
+   titanium/70
+   plastanium/640
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 0.5
+ }
+}
+requirements: [
+ lead/500
+ titanium/500
+ thorium/550
+ plastanium/450
+]
+category: units
+research: additive-reconstructor

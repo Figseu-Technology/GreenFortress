@@ -1,0 +1,66 @@
+name: 空の祭壇
+description: カヤ · ヴェルメティウスの加護を受けたブロックです。電力と凛煌石を使用してV3ユニットを生成します。
+type: UnitFactory
+researchCostMultiplier: 0.9
+size: 3
+consumes: {
+ power: 400
+}
+plans: [
+ {
+  unit: fortress
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: quasar
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: spiroct
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: zenith
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: mega
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: bryde
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ }
+]
+
+requirements: [
+ KayaVermettius-Crystal/5
+ litholite/500
+]
+
+category: units
+research: KayaVermettius-Crystal
+
+
+
+
+
+

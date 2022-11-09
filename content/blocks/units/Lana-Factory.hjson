@@ -1,0 +1,81 @@
+name: 山神の祭壇
+description: ラナ · ゼネレッカの加護を受けたブロックです。電力と凛煌石を使用してV4ユニットを生成します。
+type: UnitFactory
+researchCostMultiplier: 0.9
+size: 3
+consumes: {
+ power: 400
+}
+plans: [
+ {
+  unit: scepter
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: vela
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: arkyid
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: antumbra
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: quad
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: sei
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: Furia
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: Renesys
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ }
+]
+
+requirements: [
+ Andrastyrs-Crystal/5
+ litholite/500
+]
+
+category: units
+research: Andrastyrs-Crystal
+
+
+
+
+
+
+

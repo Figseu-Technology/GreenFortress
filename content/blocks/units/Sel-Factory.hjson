@@ -1,0 +1,68 @@
+name: 緑の祭壇
+description: セルディニアの加護を受けたブロックです。電力と凛煌石を使用してV1ユニットを生成します。
+type: UnitFactory
+researchCostMultiplier: 0.9
+size: 3
+consumes: {
+ power: 400
+}
+plans: [
+ {
+  unit: dagger
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: nova
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: crawler
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: flare
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: mono
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ },
+ {
+  unit: risso
+  requirements: [
+   litholite/50
+  ]
+  time: 580
+ }
+]
+
+requirements: [
+ Seldinia-Crystal/5
+ litholite/500
+]
+
+category: units
+research: Seldinia-Crystal
+
+
+
+
+
+
+
+
