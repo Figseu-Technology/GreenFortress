@@ -1,0 +1,206 @@
+localizedName: セルディニア
+description: 約7万8000年前から存在し、地震や津波等の災害を事前に察知した時には時間をかけてフルシア形態に戻り安全な環境になるまで仮眠状態になる生態を持つ。
+health: 72000
+armor: 280
+hitSize: 55
+boostMultiplier: 1.5
+drag: 0.18
+speed: 0.8
+accel: 0.19
+flying: true
+buildSpeed: 7
+rotateSpeed: 0.7
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+
+weapons: [
+ {
+  name: blueMGs
+  rotate: true
+  mirror: true
+  inaccuracy: 8
+  x: 8
+  y: 30
+  shots: 2
+  shootCone: 8
+  reload: 2.5
+  shootSound: shoot
+  ejectEffect: casing2Double
+  bullet: {
+   type: BasicBulletType
+   damage: 9
+   height: 18
+   width: 5
+   maxRange: 90
+   speed: 7.5
+   lifetime: 40
+   shootEffect: shootSmall
+   hitEffect: hitFuse
+   smokeEffect: shootSmallSmoke
+  }
+ },
+ {
+ name: blueMGm
+ rotate: true
+ mirror: true
+ inaccuracy: 6
+ x: 12
+ y: 15
+ shootCone: 8
+ reload: 2.5
+ shootSound: shootBig
+ ejectEffect: casing3
+  bullet: {
+   type: BasicBulletType
+   damage: 20
+   height: 35
+   width: 10
+   maxRange: 90
+   speed: 7.5
+   lifetime: 50
+   smokeEffect: shootBigSmoke
+   shootEffect: shootBig
+   hitEffect: hitFuse
+  }
+ },
+ {
+  name: blueART2
+  rotate: true
+  mirror: true
+  alternate: true
+  x: 20
+  y: 4
+  shootCone: 5
+  reload: 18
+  shots: 1
+  inaccuracy: 5
+  shootSound: laser
+  velocityRnd: 0.4
+  recoil: 1
+  bullet: {
+   type: ShrapnelBulletType
+   collidesAir: true
+   damage: 240
+   splashDamage: 40
+   splashDamageRadius: 48
+   knockback: 2
+   length: 280
+   width: 30
+   fromColor: 8bf491
+   toColor: 69c48e
+   statusDuration: 120
+   status: melting
+   hitEffect: generatespark
+   shootEffect: sparkShoot
+   hitShake: 4
+   smokeEffect: steam
+  }
+ },
+ {
+  name: blueMSL3
+  rotate: true
+  rotateSpeed: 2
+  mirror: true
+  alternate: true
+  x: 18
+  y: -16
+  shootCone: 4
+  spacing: 9
+  velocityRnd: 0.4
+  reload: 50
+  shots: 3
+  shootSound: plasmaboom
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 45
+   splashDamage: 40
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 4
+   lifetime: 120
+   pierce: false
+   homingPower: 0.5
+   homingRange: 80
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: shotgun
+   fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 1
+    splashDamageRadius: 8
+    length: 32
+    width: 10
+    fromColor: 8aa3f4
+    toColor: 6974c4
+    damage: 50
+   },
+   frontColor: 8aa3f4
+   backColor: 6974c4
+   trailColor: 989aa4
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: shootBig2
+   smokeEffect: steam
+  }
+ },
+ {
+  name: blueRG2
+  rotate: true
+  rotateSpeed: 0.5
+  mirror: false
+  x: 0
+  y: -30
+  shootY: 20
+  shootCone: 0.1
+  reload: 90
+  shootSound: Shield
+  recoil: 4
+  ejectEffect: casing4
+  bullet: {
+   type: ShrapnelBulletType
+   damage: 3700
+   knockback: 5
+   length: 2100
+   width: 28
+   lifetime: 100
+   statusDuration: 0.8
+   status: {
+    name: freezing
+    speedMultiplier: 0.5
+    reloadMultiplier: 0.5
+    permanent: false
+    effect: hitLiquid
+   },
+   trailChance: 0.8
+   fromColor: ff3332
+   toColor: c0000a
+   hitEffect: massiveExplosion
+   pierceEffect: railHit
+   updateEffect: railTrail
+   shootEffect: sparkShoot
+   hitShake: 10
+   smokeEffect: shootBig2
+  }
+ }
+]
+
+research: {
+ parent: Frusia
+ requirements: [
+  graphite/24000
+  silicon/22000
+  metaglass/20000
+  titanium/28000
+  thorium/20000
+  litholite/15000
+ ]
+}

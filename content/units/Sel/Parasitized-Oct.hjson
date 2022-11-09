@@ -1,0 +1,37 @@
+localizedName: 寄生されたオクト
+description: フーリアに寄生されたオクト。内部の部品は全て無くなっており、無数のフーリアがこの体を操る
+health: 2200
+armor: 3
+hitSize: 55
+speed: 0.6
+accel: 0.3
+flying: true
+rotateSpeed: 2.7
+rotateShooting: true
+lowAltitude: true
+trailX: 15
+trailY: -6
+trailScl: 3
+trailLength: 45
+commandLimit: 0
+playerControllable: false
+
+research:{
+  parent: oct
+  requirements:[
+      graphite/2000
+      silicon/1000
+      metaglass/1000
+      titanium/4000
+      thorium/1000
+  ]
+}
+
+abilities: [
+ {
+  type: mindustry.entities.abilities.UnitSpawnAbility
+  unit: Furia
+  spawnTime: 2500
+  spawnY: -30
+ }
+]

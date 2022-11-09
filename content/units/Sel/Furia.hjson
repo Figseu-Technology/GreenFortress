@@ -1,0 +1,74 @@
+localizedName: フーリア
+description: セルディニアの幼生。オクトに寄生し宿主の体内全てがフーリアになる。フォースを展開していないオクトがいたら寄生されているサイン
+details: 緑の時代の始まり 生命はとある最終兵器によって滅亡し、人工知能を持つ機械がこの大地を支配していた。だがその均衡はこの生命体によって崩れ去った。高い放射能の中でも損傷を受けない装甲 オクトの内部の金属を主食とする生態 そして、オクトの30パーセント近くからフーリアがオクトを突き破って生まれてきた。グリーン フォートレス の幕開けです。
+health: 9500
+armor: 3
+hitSize: 8
+speed: 1.9
+accel: 0.3
+flying: true
+buildSpeed: 1
+mineSpeed: 1.2
+mineTier: 8
+rotateSpeed: 2.7
+rotateShooting: true
+lowAltitude: true
+trailX: 15
+trailY: -6
+trailScl: 3
+trailLength: 45
+commandLimit: 6
+
+weapons: [
+ {
+  name: blueART2
+  rotate: false
+  mirror: false
+  alternate: true
+  x: 0
+  y: 3
+  shootCone: 5
+  reload: 18
+  shots: 1
+  inaccuracy: 5
+  shootSound: respawn
+  velocityRnd: 0.4
+  recoil: 1
+  bullet: {
+   type: ShrapnelBulletType
+   collidesAir: true
+   damage: 240
+   splashDamage: 40
+   splashDamageRadius: 48
+   knockback: 2
+   length: 280
+   width: 30
+   fromColor: 8bf491
+   toColor: 69c48e
+   statusDuration: 120
+   status: melting
+   hitEffect: generatespark
+   shootEffect: sparkShoot
+   hitShake: 4
+   smokeEffect: steam
+  }
+ },
+]
+
+research:{
+  parent: bryde
+  requirements:[
+      graphite/2000
+      silicon/1000
+      metaglass/1000
+      titanium/4000
+      thorium/1000
+  ]
+}
+
+abilities: [
+ {
+  type: mindustry.entities.abilities.ForceFieldAbility
+  max : 210
+ }
+]
