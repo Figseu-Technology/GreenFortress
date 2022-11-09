@@ -1,0 +1,53 @@
+localizedName: 対超生物用スペクター
+description: 通常ユニットでは倒せない大型の敵ユニットに対抗する為に必須となるタレットの一つ。
+type: PowerTurret
+health: 2560000
+size: 4
+reloadTime: 5
+range: 1000
+coolantMultiplier: 7
+liquidCapacity: 40
+buildCostMultiplier: 0.33333333
+inaccuracy: 3
+rotateSpeed: 1
+cooldown: 0.003333
+shootSound: shootBig
+shootCone: 0.1
+//layer: power
+outlineIcon: false
+//expanded: true
+powerUse: 500
+shootShake: 5
+
+shootType: {
+   type: BasicBulletType
+   speed: 10
+   damage: 800
+   knockback: 0.01
+   lifetime: 100
+   height: 30
+   width: 18
+   statusDuration: 120
+   status: freezing
+   trailChance: 0.8
+   hitEffect: hitYellowLaser
+   shootEffect: producesmoke
+   hitShake: 4
+   smokeEffect: shootBigSmoke
+}
+
+requirements: [
+ KayaVermettius-Crystal/1
+ copper/9000
+ graphite/3000
+ thorium/2500
+ plastanium/1750
+ surge-alloy/2500
+]
+category: turret
+research:{
+  parent: spectre
+  requirements:[
+ KayaVermettius-Crystal/10
+  ]
+}

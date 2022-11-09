@@ -1,0 +1,50 @@
+localizedName: 終末砲
+description: 古代の人間が大地の神から国を守る為に作ったとされる大砲。　長い時間を経て 復活した
+details: しかし、人間は禁忌へと手を染めたことに気づいていない。　終末砲 は人類を滅ぼしたのだ。　目に見える生命のほとんどは強烈な放射能により死滅し、屈強なバクテリアと人工知能を持つ機械 そして 山神の一族 がこの世界の主となったのだった。　
+//type: ChargeTurret
+health: 9900000
+size: 12
+reloadTime: 1000
+range: 80000
+coolantMultiplier: 7
+liquidCapacity: 40
+buildCostMultiplier: 0.33333333
+inaccuracy: 0
+rotateSpeed: 1
+cooldown: 0.003333
+shootSound: red
+shootCone: 0.1
+//layer: power
+outlineIcon: false
+expanded: true
+powerUse: 150
+//chargeEffect: yggdrasilCharge
+chargeBeginEffect: shockwave
+chargeSound: matter
+chargeEffects: 200
+chargeTime: 1000
+chargeMaxDelay: 1000
+shootShake: 15
+
+requirements: [
+ KayaVermettius-Crystal/1
+ Andrastyrs-Crystal/1
+ thorium/3000
+ titanium/2700
+ surge-alloy/3800
+ Sel-Flower-Crystal/2800
+ plastanium/1700
+]
+category: turret
+research:{
+  parent: foreshadow
+  requirements:[
+ Seldinia-Crystal/5
+ thorium/30000
+ titanium/27000
+ surge-alloy/38000
+ plastanium/17000
+ thorium/80000
+ nephrite/35000
+  ]
+}
