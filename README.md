@@ -8,7 +8,7 @@
 
 <hr size="3">
 
-<a href="https://github.com/Figseu-Technology/GreenFortress/releases/download/V5.0.0BE/GreenFortress-V7.zip">Download (V7)</a>
+<a href="https://github.com/Figseu-Technology/GreenFortress/releases/download/V5.0.1BE/GreenFortress.V7.Ver2.0.zip">Download (V7)</a>
 
 <hr size="3">
 
