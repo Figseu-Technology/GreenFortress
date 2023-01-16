@@ -12,6 +12,10 @@
 
 <hr size="3">
 
+<a href="https://ko-fi.com/udalice">Green Fortress を支援する</a>
+
+<hr size="3">
+
 # Green Fortress
 
 鋼ノ城ニ　命一ツ
