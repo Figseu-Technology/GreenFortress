@@ -1,0 +1,11 @@
+localizedName: 虚数の渦の残骸
+description: 虚数の渦を呼ぶと言われている古代の機械。既に動かなくなっているようだ
+type: Wall
+health: 302
+size: 5
+craftTime: 50
+requirements: [
+ Ruin-Crystal/30
+]
+category: effect
+research: Ruin-Crystal

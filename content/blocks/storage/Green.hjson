@@ -1,0 +1,24 @@
+localizedName: 対超生物用コア シャード
+description: 超生物の出現する環境に適したコアです。ほとんどのユニットの攻撃ではびくともしません。
+type: CoreBlock
+health: 12000
+alwaysUnlocked: true
+size: 3
+itemCapacity: 4000
+unitCapModifier: 8
+hasItems: true
+liquidCapacity: 40
+unitType: poly
+isFirstTier: true
+incinerateNonBuildable: true
+requirements: [
+ copper/3000
+ lead/3000
+]
+research: {
+  root: true
+  name: Green Fortress
+  planet: GreenFortress
+  requiresUnlock: false
+}
+category: effect

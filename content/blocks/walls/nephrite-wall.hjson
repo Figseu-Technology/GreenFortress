@@ -1,0 +1,13 @@
+localizedName: ネフィリアの壁
+description: 強烈な放射線を放つ防壁ブロックです。
+type: Wall
+health: 1700
+size: 1
+craftTime: 35
+chanceDeflect: 20
+requirements: [
+ nephrite/5
+ thorium/2
+]
+category: defense
+research: nephrite

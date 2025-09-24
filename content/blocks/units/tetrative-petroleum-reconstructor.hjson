@@ -1,0 +1,38 @@
+name: 凛王式超次元空間演算工場
+description: 搬入したユニットを第6段階にアップグレードします。耐久力が高く、最前線でも活躍します。
+type: Reconstructor
+health: 28000
+size: 9
+constructTime: 3600
+craftTime: 500
+absorbLasers: true
+itemCapacity: 6000
+upgrades: [
+ [Furia,Seldinia]
+ [Seldinia,LagunaVarlane]
+ [Renesys,TiaYustis]
+ [TiaYustis,FilareaCereas]
+]
+consumes: {
+ power: 9
+ items: {
+  items: [
+   Sel-Flower-Crystal/2000
+   litholite/2000
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 1
+ }
+}
+requirements: [
+ lead/8000
+ thorium/2000
+ plastanium/1200
+ surge-alloy/1600
+ phase-fabric/1200
+ Sel-Flower-Crystal/3000
+]
+category: units
+research: exponential-petroleum-reconstructor

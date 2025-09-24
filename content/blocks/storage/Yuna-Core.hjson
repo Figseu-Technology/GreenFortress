@@ -1,0 +1,19 @@
+localizedName: 月彗のコア
+description: 山神の力を宿したコアです。月の神殿へ繋がっているという記録が残っている。
+type: CoreBlock
+health: 72000
+size: 7
+itemCapacity: 27000
+unitCapModifier: 40
+researchCostMultiplier: 0.001
+hasItems: true
+hasLiquids: true
+liquidCapacity: 700
+unitType: Renesys
+requirements: [
+ copper/16000
+ lead/16000
+ litholite/4000
+]
+category: effect
+research: Furia-Core

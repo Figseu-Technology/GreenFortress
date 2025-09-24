@@ -1,0 +1,8 @@
+localizedName: フィルレーア · セレアスの祭壇
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: Filarea-blood
+blendGroup: water
+cacheLayer: tar

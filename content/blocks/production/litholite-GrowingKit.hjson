@@ -1,0 +1,53 @@
+localizedName: 冥槍桜 栽培キット
+description: 冥槍桜を育てて凛煌石の結晶を採取します。冥槍桜の砂地がない場合に有用です。
+type: GenericCrafter
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawDefault
+  }
+ ]
+}
+health: 220
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 130
+itemCapacity: 60
+liquidCapacity: 30
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputLiquid: {
+  liquid: litholite_wet
+  amount: 0.1
+}
+consumes: {
+ power: 0.7
+ items: {
+  items: [
+   sand/20
+  ]
+ }
+ liquid: {
+  liquid: water
+  amount: 0.5
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: wind2
+loopSoundVolume: 1.75
+ambientSound: wind2
+ambientSoundVolume: 0.75
+
+requirements: [
+ silicon/90
+ surge-alloy/120
+]
+
+category: crafting
+research: litholite

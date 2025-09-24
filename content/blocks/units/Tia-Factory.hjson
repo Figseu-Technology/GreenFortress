@@ -1,0 +1,78 @@
+name: 白銀の祭壇
+description: ティア · ユスティスの加護を受けたブロックです。電力と凛煌石を使用してT2ユニットを生成します。
+type: UnitFactory
+researchCostMultiplier: 0.9
+health: 3000
+size: 3
+craftTime: 200
+consumes: {
+ power: 10
+}
+plans: [
+ {
+  unit: mace
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ },
+ {
+  unit: atrax
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ },
+ {
+  unit: pulsar
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ },
+ {
+  unit: horizon
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ },
+ {
+  unit: poly
+  requirements: [
+   litholite/10
+  ]
+  time: 120
+ },
+ {
+  unit: minke
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ },
+ {
+  unit: crow
+  requirements: [
+   litholite/10
+  ]
+  time: 280
+ }
+]
+
+requirements: [
+ TiaYustis-Crystal/1
+ litholite/50
+]
+
+category: units
+research: TiaYustis-Crystal
+
+
+
+
+
+
+
+
+

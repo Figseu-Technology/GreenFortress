@@ -1,0 +1,20 @@
+type: LiquidSource
+localizedName: 虚数の水槽
+description: 虚数の世界に干渉し、ありとあらゆる液体を取り出すことができる水槽。 全ての力がここにある。
+
+health: 10
+size: 1
+hasLiquids: true
+liquidCapacity: 100
+outputsLiquid: true
+
+group: transportation
+configurable: true
+
+requirements: [
+ End-Key/1700
+]
+buildCostMultiplier: 0.1
+
+category: liquid
+research: Ruin-Liquid

@@ -1,0 +1,16 @@
+type: PowerNode
+name: 虚数の電気石の残骸
+description: わずかに電力を感じる残骸。辛うじてノードとして使用できる
+size: 1
+health: 7
+laserRange: 3
+maxNodes: 2
+hasPower: true
+placeableLiquid: false
+laserColor1: FFFFFFFF
+laserColor2: BEBEBEFF
+category: power
+requirements: [
+ Ruin-Crystal/5
+]
+research: Ruin-Crystal

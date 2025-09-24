@@ -1,0 +1,8 @@
+localizedName: カヤ · ヴェルメティウスの祭壇
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: KayaVermettius-blood
+blendGroup: water
+cacheLayer: tar

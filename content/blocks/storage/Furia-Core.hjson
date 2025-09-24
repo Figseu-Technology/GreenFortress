@@ -1,0 +1,19 @@
+localizedName: コア スカイピース
+description: 凛煌石を使った耐久性能に優れるコア。
+type: CoreBlock
+health: 9500
+size: 3
+itemCapacity: 8000
+unitCapModifier: 20
+researchCostMultiplier: 0.001
+hasItems: true
+hasLiquids: true
+liquidCapacity: 200
+unitType: Furia
+requirements: [
+ copper/2000
+ lead/1600
+ litholite/700
+]
+category: effect
+research: litholite

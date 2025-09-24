@@ -1,0 +1,11 @@
+localizedName: 虚数の水槽の残骸
+description: 空っぽの水槽のような残骸。水を貯めることすら不可能なようだ
+type: Wall
+health: 2
+size: 1
+craftTime: 2
+requirements: [
+ Ruin-Crystal/5
+]
+category: liquid
+research: Ruin-Crystal

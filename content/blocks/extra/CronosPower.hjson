@@ -1,0 +1,19 @@
+type: PowerSource
+localizedName: 虚数の電気石
+description: 虚数の世界の電気を帯びた石。 電気は減るどころか無限に増え続ける。
+
+health: 10
+size: 1
+maxNodes: 1
+outputsPower: true
+consumesPower: false
+laserColor1: FFFFFFFF
+laserColor2: E9A9FFFF
+
+requirements: [
+ End-Key/3300
+]
+buildCostMultiplier: 0.1
+
+category: power
+research: Ruin-Node

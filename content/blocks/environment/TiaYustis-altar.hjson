@@ -1,0 +1,8 @@
+localizedName: ティア · ユスティスの祭壇
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: TiaYustis-blood
+blendGroup: water
+cacheLayer: tar

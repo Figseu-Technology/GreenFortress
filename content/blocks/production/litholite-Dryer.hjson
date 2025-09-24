@@ -1,0 +1,57 @@
+localizedName: 凛煌石結晶凝縮機
+description: 凛煌石の結晶を凝縮し、宝石にします。
+type: GenericCrafter
+health: 1100
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+itemCapacity: 20
+liquidCapacity: 60
+updateEffect: none
+floating: true
+craftEffect: formsmoke
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawDefault
+  },
+  {
+        type: DrawLiquidRegion
+        drawLiquid: litholite_wet
+        suffix: -liquid
+	  }
+ ]
+}
+outputItem: litholite/1
+consumes: {
+ power: 1.6
+ items: {
+  items: [
+   pyratite/5
+  ]
+ }
+ liquid: {
+  liquid: litholite_wet
+  amount: 0.3
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: grinding
+loopSoundVolume: 1.75
+ambientSound: grinding
+ambientSoundVolume: 0.75
+
+requirements: [
+ lead/90
+ silicon/75
+ metaglass/90
+ Sel-Flower-Crystal/70
+]
+
+category: crafting
+research: litholite_wet

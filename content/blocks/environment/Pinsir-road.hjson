@@ -1,0 +1,6 @@
+localizedName: 烈虫の道
+type: Floor
+name: Pinsir-road
+variants: 0
+walkEffect: none
+blendGroup: snow

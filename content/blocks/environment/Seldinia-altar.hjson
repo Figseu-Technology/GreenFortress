@@ -1,0 +1,8 @@
+localizedName: セルディニアの祭壇
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: Seldinia-blood
+blendGroup: water
+cacheLayer: tar

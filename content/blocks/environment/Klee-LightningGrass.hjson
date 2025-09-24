@@ -1,0 +1,6 @@
+localizedName: 光輝く草原
+type: Floor
+name: Klee-LightningGrass
+variants: 0
+walkEffect: none
+blendGroup: grass

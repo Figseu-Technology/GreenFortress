@@ -1,0 +1,11 @@
+localizedName: 太古の葬花溶鉱炉装置の残骸
+description: 失われた技術が使われていたとされる溶鉱炉。別の惑星になにかヒントがあるかもしれない
+type: Wall
+health: 333
+size: 6
+craftTime: 2
+requirements: [
+ Ruin-Crystal/17
+]
+category: crafting
+research: Ruin-Crystal

@@ -1,0 +1,8 @@
+localizedName: 獄海
+type: Floor
+variants: 0
+liquidDrop: slag
+isLiquid: true
+walkEffect: wet
+blendGroup: water
+cacheLayer: tar

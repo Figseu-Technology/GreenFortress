@@ -1,0 +1,40 @@
+name: 山神の祭壇
+description: 虚数世界に接続し、虚数世界から大地の王を召喚します。
+type: Reconstructor
+health: 46000
+size: 14
+constructTime: 10000
+craftTime: 5000
+absorbLasers: true
+lightningChance: 1.0
+lightningDamage: 5000
+itemCapacity: 10000
+upgrades: [
+ [Renesys,LanaZenerekka]
+]
+consumes: {
+ power: 9
+ items: {
+  items: [
+   Seldinia-Crystal/1
+   KayaVermettius-Crystal/1
+   TiaYustis-Crystal/1
+   Andrastyrs-Crystal/1
+   litholite/1000
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 1
+ }
+}
+requirements: [
+ lead/16000
+ thorium/4000
+ plastanium/2000
+ surge-alloy/3000
+ phase-fabric/3000
+ Sel-Flower-Crystal/6000
+]
+category: units
+research: LanaZenerekka

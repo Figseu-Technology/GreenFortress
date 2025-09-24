@@ -1,0 +1,43 @@
+name: 天冥彗式虚数演算工場
+description: 搬入したユニットを第5段階にアップグレードします。 また、セルディニア等を第5段階に戻すこともできます。 葬華の蜜を使用する為、一部のユニットに寄生虫が付くことがあります。
+type: Reconstructor
+health: 10000
+size: 7
+constructTime: 2100
+upgrades: [
+ [scepter,reign]
+ [arkyid,toxopid]
+ [vela,corvus]
+ [antumbra,eclipse]
+ [quad,Parasitized-Oct]
+ [sei,omura]
+ [quad,Furia]
+ [arkyid,Renesys]
+ [Seldinia,Furia]
+ [falcon,vulture]
+]
+consumes: {
+ power: 7
+ items: {
+  items: [
+   Sel-Flower-Crystal/1000
+   phase-fabric/100
+   surge-alloy/250
+   plastanium/300
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 1
+ }
+}
+requirements: [
+ lead/1500
+ thorium/500
+ plastanium/300
+ surge-alloy/300
+ phase-fabric/300
+ Sel-Flower-Crystal/3000
+]
+category: units
+research: multiplicative-petroleum-reconstructor

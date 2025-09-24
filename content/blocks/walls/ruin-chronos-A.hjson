@@ -1,0 +1,11 @@
+localizedName: 虚数のトンネルの残骸
+description: 虚数のトンネルを作り出すと言われている古代の機械。既に動かなくなっているようだ
+type: Wall
+health: 208
+size: 6
+craftTime: 50
+requirements: [
+ Ruin-Crystal/30
+]
+category: effect
+research: Ruin-Crystal

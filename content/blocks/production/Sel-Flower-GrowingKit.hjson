@@ -1,0 +1,53 @@
+localizedName: 葬華 栽培キット
+description: 葬華の華を育てて葬華の蜜を採取します。葬華蜜の池がない場合に有用です。
+type: GenericCrafter
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawDefault
+  }
+ ]
+}
+health: 140
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 150
+itemCapacity: 200
+liquidCapacity: 30
+updateEffect: oily
+floating: true
+craftEffect: formsmoke
+outputLiquid: {
+  liquid: Flower1
+  amount: 0.1
+}
+consumes: {
+ power: 0.7
+ items: {
+  items: [
+   sand/20
+  ]
+ }
+ liquid: {
+  liquid: water
+  amount: 0.5
+  booster: false
+  optional: false
+ }
+}
+
+loopSound: wind2
+loopSoundVolume: 1.75
+ambientSound: wind2
+ambientSoundVolume: 0.75
+
+requirements: [
+ silicon/90
+ graphite/120
+]
+
+category: crafting
+research: Sel-Flower-Crystal

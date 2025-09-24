@@ -1,0 +1,14 @@
+localizedName: 葬花結晶のコンベア
+description: 葬花結晶の力を宿したコンベアです。ほとんどの攻撃に耐えることができ、防衛にも使えます。
+type: Conveyor
+requirements: [
+	nephrite/1
+ thorium/1
+ Sel-Flower-Crystal/1
+]
+health: 1500
+placeableLiquid: true
+category: distribution
+speed: 0.05
+displayedSpeed: 15
+research: Sel-Flower-Crystal

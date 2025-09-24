@@ -1,0 +1,11 @@
+localizedName: 虚数の時計の残骸
+description: 古代の時計の残骸。部品は朽ち、修復は不可能のようだ
+type: Wall
+health: 200
+size: 2
+craftTime: 50
+requirements: [
+ Ruin-Crystal/30
+]
+category: effect
+research: Ruin-Crystal

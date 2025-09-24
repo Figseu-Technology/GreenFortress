@@ -1,0 +1,14 @@
+localizedName: 凛煌石の壁
+description: 失われた宝石を使用した防壁ブロックです。
+type: Wall
+health: 8000
+size: 1
+craftTime: 50
+lightningChance: 0.15
+lightningDamage: 15
+absorbLasers: true
+requirements: [
+ litholite/6
+]
+category: defense
+research: litholite

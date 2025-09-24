@@ -1,0 +1,15 @@
+localizedName: 強化されたネフィリアの壁
+description: 葬花結晶により強化された防壁ブロックです。ほとんどの攻撃を跳ね返すことができます。
+type: Wall
+health: 6700
+armor: 5
+size: 1
+craftTime: 35
+chanceDeflect: 50
+requirements: [
+ nephrite/5
+ thorium/2
+ Sel-Flower-Crystal/5
+]
+category: defense
+research: Sel-Flower-Crystal

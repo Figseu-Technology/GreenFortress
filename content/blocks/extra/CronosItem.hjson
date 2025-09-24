@@ -1,0 +1,20 @@
+type: ItemSource
+localizedName: 虚数の箱
+description: 虚数の世界に干渉し、あらゆる物を取り出すことができる箱。 全ての富がここにある。
+
+health: 20
+size: 1
+hasItems: true
+update: true
+solid: true
+
+group: transportation
+configurable: true
+
+requirements: [
+ End-Key/2700
+]
+buildCostMultiplier: 0.1
+
+category: effect
+research: Ruin-Item

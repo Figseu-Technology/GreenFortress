@@ -1,0 +1,7 @@
+localizedName: 空白の玉座
+type: Floor
+name: C-Ground
+allowCorePlacement: true
+variants: 0
+walkEffect: none
+blendGroup: salt

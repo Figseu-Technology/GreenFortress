@@ -1,0 +1,11 @@
+localizedName: 終末砲の残骸
+description: かつて世界を破滅に導いたとされるターレットの残骸。とある超生物がこのターレットの残骸を再利用しているようだ
+type: Wall
+health: 59
+size: 12
+craftTime: 16
+requirements: [
+ Ruin-Crystal/120
+]
+category: turret
+research: Ruin-Crystal

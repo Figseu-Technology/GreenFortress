@@ -1,0 +1,40 @@
+name: 立体空間式再構成工場
+description: 搬入したユニットを第4段階にアップグレードします。
+type: Reconstructor
+health: 5500
+size: 5
+constructTime: 1620
+upgrades: [
+ [fortress,scepter]
+ [quasar,vela]
+ [zenith,antumbra]
+ [mega,quad]
+ [bryde,sei]
+ [spiroct,arkyid]
+ [owl,falcon]
+ [quasar,falcon]
+]
+consumes: {
+ power: 4
+ items: {
+  items: [
+   Sel-Flower-Crystal/400
+   titanium/70
+   plastanium/300
+  ]
+ }
+ liquid: {
+  liquid: Flower1
+  amount: 0.5
+ }
+}
+requirements: [
+ Sel-Flower-Crystal/2000
+ lead/1000
+ titanium/500
+ thorium/300
+ plastanium/200
+ phase-fabric/300
+]
+category: units
+research: ShadowCave

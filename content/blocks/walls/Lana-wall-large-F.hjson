@@ -1,0 +1,14 @@
+localizedName: 冥槍山の巨石
+description: 山神の住む地域に点在するとても大きな壁。あらゆる攻撃が無効化される。
+type: Wall
+health: 55000
+size: 3
+buildVisibility: editorOnly
+chanceDeflect: 500
+absorbLasers: true
+researchCostMultiplier: 130.06
+requirements: [
+ Andrastyrs-Crystal/1000
+]
+category: defense
+research: SilentPebble-X

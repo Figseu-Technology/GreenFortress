@@ -1,0 +1,11 @@
+localizedName: 虚数の箱の残骸
+description: 何も入っていない箱の残骸。非常に脆く、一撃で破壊される
+type: Wall
+health: 1
+size: 1
+craftTime: 1
+requirements: [
+ Ruin-Crystal/7
+]
+category: distribution
+research: Ruin-Crystal

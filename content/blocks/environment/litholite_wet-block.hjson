@@ -1,0 +1,8 @@
+localizedName: 冥槍山の川
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: litholite_wet
+blendGroup: water
+cacheLayer: water

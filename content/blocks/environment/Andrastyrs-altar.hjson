@@ -1,0 +1,8 @@
+localizedName: ラナ · ゼネレッカの祭壇
+type: Floor
+variants: 0
+isLiquid: true
+walkEffect: wet
+liquidDrop: Andrastyrs-blood
+blendGroup: water
+cacheLayer: tar

@@ -1,0 +1,13 @@
+localizedName: 強化された巨大なネフィリアの壁
+description: 葬花結晶により強化された大きな防壁ブロックです。ほぼ全ての攻撃を跳ね返すことができます。
+type: Wall
+health: 11000
+size: 2
+chanceDeflect: 80
+requirements: [
+ nephrite/24
+ thorium/8
+ Sel-Flower-Crystal/24
+]
+category: defense
+research: nephriteX-wall

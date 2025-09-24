@@ -1,0 +1,6 @@
+localizedName: 深い太陽の草原
+type: Floor
+name: Klee-deepGrass
+variants: 0
+walkEffect: none
+blendGroup: grass
