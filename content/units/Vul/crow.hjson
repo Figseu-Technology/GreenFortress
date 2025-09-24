@@ -1,0 +1,52 @@
+localizedName: クロウ
+description: 銅、鉛、チタンを自動で採掘し、コアに集めます。飛行可能。傷つけられると逃げる。 Credits Diamond Ore MOD
+details: ダイヤモンドの世界から現れた機械生命体。一時期惑星から姿を消していたが遠い惑星 Erekir で再び発見された。
+
+type: mech
+health: 570
+armor: 7
+
+commandLimit: 8
+
+speed: 1.5
+mechFrontSway: 1
+mechStepParticles: true
+mechLandShake: 0
+defaultController: minerAI
+mineItems: [
+ copper
+ lead
+ titanium
+],
+boostMultiplier: 1.65
+drag: 0.11
+accel: 0.135
+rotateSpeed: 5.5
+baseRotateSpeed: 6.5
+lightRadius: 20
+lightOpacity: 0.6
+lightColor: 2093ed
+mechFrontSway: 0.14
+mechSideSway: 0.32
+mechStride: -1.66
+mineSpeed: 9
+buildSpeed: 0.75
+template: ErekirUnitType
+mineTier: 3
+range: 40
+itemCapacity: 100
+hitSize: 11
+rotateShooting: false
+engineOffset: 5
+engineSize: 4
+canBoost: true
+
+weapons:[]
+
+research: {
+  parent: sparrow
+  requirements:[
+      copper/200
+      lead/100
+  ]
+}

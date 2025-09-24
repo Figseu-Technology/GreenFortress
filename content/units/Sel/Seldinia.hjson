@@ -1,0 +1,230 @@
+localizedName: セルディニア
+description: 約7万8000年前から存在し、地震や津波等の災害を事前に察知した時には時間をかけてフルシア形態に戻り安全な環境になるまで仮眠状態になる生態を持つ。
+details: 空界の王 遥か大昔、太陽の国があった時代 砂漠の最果てに位置した国　戦争が起きることもなく、民は平穏な日々を送っていた そこに　炎精 がやってきて、辺り一面を葬華地帯へと変えてしまった。 その際にセルディニアの一族が太陽の国を征服する為に飛来した。 女王は セルディニア に交渉を持ちかけた 「妾の身体をそなたの好きなように使ってもかまわん。 だから・・・　私の愛する民を逃がしてやってくれないか」 と セルディニアは　女王を喰らった 空の王が　生まれた 結局、太陽の国の民は皆 フーリア の食料となり、女王は 空の王 の コア に囚われ、その惨劇を見ていることしかできなかった。
+health: 72000
+armor: 280
+hitSize: 55
+boostMultiplier: 1.5
+drag: 0.18
+speed: 0.8
+accel: 0.19
+flying: true
+buildSpeed: 7
+rotateSpeed: 0.7
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+
+weapons: [
+ {
+  name: blueMGs
+  rotate: true
+  mirror: true
+  inaccuracy: 8
+  x: 8
+  y: 30
+  shots: 2
+  shootCone: 8
+  reload: 2.5
+  shootSound: shoot
+  ejectEffect: casing2Double
+  bullet: {
+   type: BasicBulletType
+   damage: 9
+   height: 18
+   width: 5
+   maxRange: 90
+   speed: 7.5
+   lifetime: 40
+   shootEffect: shootSmall
+   hitEffect: hitFuse
+   smokeEffect: shootSmallSmoke
+  }
+ },
+ {
+ name: blueMGm
+ rotate: true
+ mirror: true
+ inaccuracy: 6
+ x: 12
+ y: 15
+ shootCone: 8
+ reload: 2.5
+ shootSound: shootBig
+ ejectEffect: casing3
+  bullet: {
+   type: BasicBulletType
+   damage: 15
+   height: 35
+   width: 10
+   maxRange: 90
+   speed: 7.5
+   lifetime: 50
+   smokeEffect: shootBigSmoke
+   shootEffect: shootBig
+   hitEffect: hitFuse
+  }
+ },
+ {
+  name: blueART2
+  rotate: true
+  mirror: true
+  alternate: true
+  x: 20
+  y: 4
+  shootCone: 5
+  reload: 18
+  shots: 1
+  inaccuracy: 5
+  shootSound: laser
+  velocityRnd: 0.4
+  recoil: 1
+  bullet: {
+   type: ShrapnelBulletType
+   collidesAir: true
+   damage: 150
+   splashDamage: 40
+   splashDamageRadius: 48
+   knockback: 2
+   length: 280
+   width: 30
+   fromColor: 8bf491
+   toColor: 69c48e
+   statusDuration: 120
+   status: melting
+   hitEffect: generatespark
+   shootEffect: sparkShoot
+   hitShake: 4
+   smokeEffect: steam
+  }
+ },
+ {
+  name: blueMSL3
+  rotate: true
+  rotateSpeed: 2
+  mirror: true
+  alternate: true
+  x: 18
+  y: -16
+  shootCone: 4
+  spacing: 9
+  velocityRnd: 0.4
+  reload: 50
+  shots: 3
+  shootSound: plasmaboom
+  recoil: 1
+  bullet: {
+   type: MissileBulletType
+   damage: 15
+   splashDamage: 40
+   splashDamageRadius: 32
+   height: 20
+   width: 10
+   speed: 4
+   lifetime: 120
+   pierce: false
+   homingPower: 0.5
+   homingRange: 80
+   weaveScale: 8
+   weaveMag: 2
+   fragBullets: 1
+   fragCone: 0.0001
+   hitSound: shotgun
+   fragBullet: {
+    type: ShrapnelBulletType
+    serrations: 1
+    splashDamageRadius: 8
+    length: 32
+    width: 10
+    fromColor: 8aa3f4
+    toColor: 6974c4
+    damage: 10
+   },
+   frontColor: 8aa3f4
+   backColor: 6974c4
+   trailColor: 989aa4
+   trailChance: 0.8
+   hitEffect: hitLancer
+   shootEffect: shootBig2
+   smokeEffect: steam
+  }
+ },
+ {
+  name: blueRG2
+  y: -30
+  x: 0
+  shootY: 20
+  ejectEffect: none
+  rotateSpeed: 0.5
+  rotate: true
+  alternate: false
+  mirror: false
+  shots: 1
+  reload: 185
+  recoil: 2
+  shake: 0.5
+  shootCone: 20
+  cooldownTime: 200
+  heatColor: 79F2EEFF
+  shootSound: Shield
+  chargeSound: lasercharge2
+  continuous: true
+    bullet: { 
+    type: ContinuousLaserBulletType
+    damage: 100
+    width: 20
+    length: 1000
+    knockback: 6
+    drawSize: 870
+    lifetime: 100
+    shake: 0.5
+    despawnEffect: smokeCloud
+    smokeEffect: smokeCloud
+    largeHit: true
+    status: green-fortress-Fru-assistance
+    statusDuration: 50
+    colors: [DE4136AA, DE4136AA, DE4136ff, DE4136ff]
+    hitEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 5
+    lifetime: 15
+    length: 35
+    cone: -360
+    lenFrom: 8
+    lenTo: 0
+    colorFrom: FFFFFF
+    colorTo: BF92F9FF
+      },
+    shootEffect: {
+    type: ParticleEffect
+    line: true
+    particles: 12
+    offset: 55
+    lifetime: 13
+    length: 35
+    cone: -30
+    lenFrom: 10
+    lenTo: 0
+    colorFrom: FFFFFF
+    colorTo: BF92F9FF
+   }
+  }
+ }
+]
+
+research: {
+ parent: Furia
+ requirements: [
+ lead/8000
+ thorium/2000
+ plastanium/1200
+ surge-alloy/1600
+ phase-fabric/1200
+ Sel-Flower-Crystal/8000
+ ]
+}

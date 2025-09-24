@@ -1,0 +1,180 @@
+localizedName: フィルレーア · セレアス
+description: 特定の病原体を放ち感染した生命体の身体を侵食する超生物のアリジゴク。討伐不可能。 病、衰弱、摩耗 は彼女が生命へ与える試練。 命が絶たれた場所に敵の襲撃と共に飛来する可能性がある。
+details: 近時代に生まれた新たな妖精。 60才という妖精の中では非常に若い部類に該当し、人間に当てはめると身体と精神年齢は6才にも満たない。 しかし この 山神の娘 に近づいてはならない。 彼女は生まれた瞬間から「侵食の概念」を司り Green Fortress と立線界に 病、衰弱、疲労、摩耗 を生み出した。 今までは一度誕生すれば所持している 星 の数を維持できていたのだが、彼女の力によりそれは時間経過により摩耗し、やがて 死 という形で消滅する。 「彼」にとっては死活問題になるだろう。 概念を司る 妖精 だけがこの「侵食」の影響を受けずに彼女と対等に会話ができる。 妾は侵食なり　妾の腕は生まれた時から存在しない ならば妾が 空間 を 侵食 し、腕にすればよいのだ。
+health: 13000
+armor: 50
+hitSize: 100
+drag: 0.5
+speed: 5.0
+accel: 0.1
+flying: true
+buildSpeed: 1.8
+rotateSpeed: 12.2
+rotateShooting: true
+lowAltitude: true
+trailX: 23
+trailY: -20
+trailScl: 4
+trailLength: 50
+commandLimit: 8
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving]
+
+weapons: [
+ {
+  name: FilareaCereasWeapon
+  reload: 200
+  mirror: false
+  x: 0
+  y: 0
+  shootY: 60
+  recoil: 3
+  shake: 8
+  rotateSpeed: 2
+  rotate: false
+  shootSound: A-crack
+  shootCone: 100
+  minWarmup: 0.9
+  chargeSound: A-crack
+  velocityRnd: 0.6
+  spacing: 0.0001
+  shots: 15
+  bullet: {
+   type: ShrapnelBulletType
+   serrations: 1
+   damage: Infinity
+   lifetime: 10
+   length: 15
+   width: 32
+   height: 100
+   frontColor: 000000
+   backColor: 000000
+   trailColor: 000000
+   hitSound: A-crack
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   trailEffect: overdriven
+   hitEffect: hitLancer
+   despawnEffect: flakExplosionBig
+   ammoMultiplier: 1
+   reloadMultiplier: 0.575
+   hitShake: 20
+   status: burning
+   statusDuration: 920
+   knockback: 15
+   splashDamage: Infinity
+   splashDamageRadius: 210000
+   fragBullets: 100
+   fragCone: 0.0001
+  }
+ },
+ {
+        name: portal-bullet
+    shootCone: 80
+    mirror: false
+     reload: 100
+    y: -58
+    xRand: 200
+    shoot: {
+    type: shootPattern
+    shots: 10
+    shotDelay: 8
+    },
+    inaccuracy: 7
+    rotate: false
+    shootY: 0
+    shootSound: malignShoot
+    bullet: {
+    type: BasicBulletType
+    width: 10
+    height: 17
+    sprite: green-fortress-pointy-bullet
+    frontColor: 000000
+    backColor: 000000FF
+    lifetime: 300
+    damage: 15
+    status: freezing
+    statusDuration: 8000
+    speed: 9.7
+    shrinkY: 0
+    shrinkX: 0
+    shootEffect: {
+    type: multiEffect
+    effects: [
+    {
+     type: WaveEffect
+    lifetime: 35
+    sizeFrom: 0
+    sizeTo: 23
+    lightColor: 590093FF
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: 590093FF
+    colorTo: 590093FF
+    },
+    {
+    type: ParticleEffect
+    particles: 1
+    sizeFrom: 9
+    sizeTo: 0
+    length: 0
+    layer: 114
+    region: green-fortress-plasma-back
+    interp: swing
+    lifetime: 50
+    colorFrom: 000000FF
+    colorTo: 000000FF
+      },
+    {
+   type: ParticleEffect
+    particles: 1
+    sizeFrom: 10
+    sizeTo: 0
+    length: 0
+    interp: swing
+    lifetime: 50
+    colorFrom: 590093FF
+    colorTo: 590093FF
+      }
+    ]    
+    },
+   hitEffect: {
+    type: multiEffect
+    effects: [
+    {
+    type: ParticleEffect
+    line: true
+    particles: 7
+    lifetime: 20
+    offset: 50
+    length: 105
+    cone: -60
+    lenFrom: 11
+    lenTo: 11
+    colorFrom: D2D2D200
+    colorTo: D2D2D2AA
+    }
+    ]    
+    },
+       homingPower: 0.07
+  homingRange: 100
+  homingDelay: 10
+    trailColor: 590093FF
+    trailParam: 6
+    trailLength: 12
+    trailWidth: 2.5
+        }
+	 }
+]
+
+research: {
+ parent: Renesys
+ requirements: [
+  graphite/6900
+  silicon/9200
+  metaglass/8000
+  titanium/7800
+  thorium/2000
+  litholite/9000
+ ]
+}

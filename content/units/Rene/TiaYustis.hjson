@@ -1,0 +1,289 @@
+localizedName: ティア · ユスティス
+description: レネシス一族の最終形態。 この生物が天敵であるセルディニアを狩った時、歴史が大きく変わると言い伝えられている。
+groundLayer: 87
+drawShields: false
+type: legs
+speed: 0.27
+hitSize: 94
+health: 300000
+buildSpeed: 6
+faceTarget: true
+commandLimit: 10
+armor: 300
+drag: 0.5
+outlineColor: 36363c
+flying: false
+template: ErekirUnitType
+targetAir: true
+rotateSpeed: 0.7
+legCount: 10
+legMoveSpace: 0.3
+legContinuousMove: true
+lockLegBase: true
+legPairOffset: 2
+legLength: 152
+legExtension: -20
+legBaseOffset: 28
+legLengthScl: 1
+legSpeed: 0.7
+rippleScale: 9
+legSplashDamage: 3700
+legSplashRange: 100
+allowLegStep: true
+hovering: true
+immunities: [wet, tarred, sapped, corroded, burning, melting, freezing, tarred, muddy, slow, unmoving, green-fortress-status-blasted]
+parts: [
+         {
+        type: shapePart
+        hollow: true
+        circle: true
+        y: 9
+        layer: 110
+        color: F3E979FF
+        stroke: 2
+        strokeTo: 2
+        radiusTo: 8
+        radius: 8
+        },
+        {
+         type: FlarePart
+          color2: FFFFFF
+          color1: F3E979FF
+          y: 9
+          stroke: 2
+          radius: 7
+         },
+        {
+        type: HaloPart
+        y: 9
+        radius: 3
+        tri: true
+        layer: 110
+        color: F3E979FF
+        haloRadius: 17
+        haloRadiusTo: 17
+        haloRotateSpeed: -1
+        haloRotation: 90
+        shapeRotation: 180
+        stroke: 0
+        strokeTo: 2
+        shapes: 2
+        triLengthTo: 6
+        triLength: 6
+           },
+           {
+        type: HaloPart
+        y: 9
+        radius: 3
+        tri: true
+        layer: 110
+        color: F3E979FF
+        haloRadius: 17
+        haloRotateSpeed: -1
+        haloRotation: 90
+        haloRadiusTo: 17
+        stroke: 0
+        strokeTo: 2
+        shapes: 2
+        triLengthTo: 10
+        triLength: 10
+        },
+        {
+        type: HaloPart
+        y: 9
+        radius: 2.4
+        tri: true
+        layer: 110
+        color: F3E979FF
+        haloRotateSpeed: -1
+        haloRadius: 8
+        haloRadiusTo: 8
+        stroke: 0
+        strokeTo: 2
+        shapes: 2
+        triLengthTo: 9
+        triLength: 9
+           },
+           {
+        type: HaloPart
+        y: 9
+        radius: 2.4
+        tri: true
+        layer: 110
+        color: F3E979FF
+        haloRotateSpeed: 1
+        haloRadius: 8
+        haloRadiusTo: 8
+        stroke: 0
+        strokeTo: 2
+        shapes: 2
+        triLengthTo: 9
+        triLength: 9
+ },
+   {
+  type: shapePart
+  y: -40
+  hollow: true
+  circle: true
+  layer: 110
+  color: EBEBEB
+  stroke: 0
+  strokeTo: 1.1
+  radiusTo: 7
+  radius: 7
+  },
+   {
+  type: shapePart
+  y: -40
+  hollow: true
+  circle: true
+  layer: 110
+  color: EBEBEB
+  stroke: 0
+  strokeTo: 0.7
+  radiusTo: 9
+  radius: 9
+  },
+  {
+  type: HaloPart
+  y: -40
+  radius: 10.6
+  tri: true
+  layer: 110
+  color: EBEBEB
+  haloRotateSpeed: 0.7
+  haloRadius: 18
+  haloRadiusTo: 18
+  stroke: 0
+  strokeTo: 2
+  shapes: 4
+  triLengthTo: 4
+  triLength: 0
+  },
+   {
+  type: HaloPart
+  y: -40
+  radius: 10.6
+  tri: true
+  layer: 110
+  color: EBEBEB
+  haloRotateSpeed: -0.7
+  haloRadius: 9
+  haloRadiusTo: 9
+  stroke: 0
+  strokeTo: 2
+  shapes: 4
+  triLengthTo: 4
+  triLength: 0
+  }
+],
+weapons: [
+ {
+        name: portal-bullet
+    shootCone: 80
+    mirror: false
+     reload: 100
+    y: -58
+    xRand: 200
+    shoot: {
+    type: shootPattern
+    shots: 10
+    shotDelay: 8
+    },
+    inaccuracy: 7
+    rotate: false
+    shootY: 0
+    shootSound: malignShoot
+    bullet: {
+    type: BasicBulletType
+    width: 10
+    height: 17
+    sprite: green-fortress-pointy-bullet
+    frontColor: FFFFFF
+    backColor: B0B0B0FF
+    lifetime: 300
+    damage: 700
+    speed: 9.7
+    shrinkY: 0
+    shrinkX: 0
+    shootEffect: {
+    type: multiEffect
+    effects: [
+    {
+     type: WaveEffect
+    lifetime: 35
+    sizeFrom: 0
+    sizeTo: 23
+    lightColor: B0B0B0FF
+    interp: circleOut
+    strokeFrom: 4
+    strokeTo: 0
+    colorFrom: B0B0B0FF
+    colorTo: B0B0B0FF
+    },
+    {
+    type: ParticleEffect
+    particles: 1
+    sizeFrom: 9
+    sizeTo: 0
+    length: 0
+    layer: 114
+    region: green-fortress-plasma-back
+    interp: swing
+    lifetime: 50
+    colorFrom: 000000FF
+    colorTo: 000000FF
+      },
+    {
+   type: ParticleEffect
+    particles: 1
+    sizeFrom: 10
+    sizeTo: 0
+    length: 0
+    interp: swing
+    lifetime: 50
+    colorFrom: B0B0B0FF
+    colorTo: B0B0B0FF
+      }
+    ]    
+    },
+   hitEffect: {
+    type: multiEffect
+    effects: [
+    {
+    type: ParticleEffect
+    line: true
+    particles: 7
+    lifetime: 20
+    offset: 50
+    length: 105
+    cone: -60
+    lenFrom: 11
+    lenTo: 11
+    colorFrom: D2D2D200
+    colorTo: D2D2D2AA
+    }
+    ]    
+    },
+       homingPower: 0.07
+  homingRange: 100
+  homingDelay: 10
+    trailColor: B0B0B0FF
+    trailParam: 6
+    trailLength: 12
+    trailWidth: 2.5
+        }
+	 }
+]
+
+research:{
+ parent: Renesys
+ requirements:[
+ lead/8000
+ thorium/2000
+ plastanium/1200
+ surge-alloy/3600
+ phase-fabric/2200
+ Sel-Flower-Crystal/9000
+ ]
+}
