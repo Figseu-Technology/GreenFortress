@@ -1,0 +1,10 @@
+localizedName: 厄災の始まり
+description: どこかで見たような景色。しかしそこには厄災の予兆が静かに訪れていた
+sector: 183
+planet: GreenFortress
+captureWave: 80
+difficulty: 5
+research: {
+  parent: Green
+}
+alwaysUnlocked: true

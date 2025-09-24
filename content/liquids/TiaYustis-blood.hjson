@@ -1,0 +1,16 @@
+name: ティア · ユスティスのオーラ
+description: ティア · ユスティスの祭壇から採取した気体。 彼らは 神 になる日を待ち続けている。
+heatCapacity: 20.0
+explosiveness: 2800
+viscosity: 0.001
+effect: corroded
+gas: true
+color: C7C7C7
+barColor: C7C7C7
+lightColor: C7C7C788
+research:{
+  parent: TiaYustis
+  requirements:[
+      TiaYustis-Crystal/20
+  ]
+}

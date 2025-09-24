@@ -1,0 +1,19 @@
+localizedName: 葬花の花畑
+description: この惑星で初めて葬花の発生が確認された。災厄を止める為、新たな世界に飛び立とう
+sector: 170
+planet: GreenFortress
+captureWave: 135
+difficulty: 8
+research: {
+  parent: Flower1
+  requirements: [
+  Sel-Flower-Crystal/50
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: impact0078
+    }
+ ]
+}
+

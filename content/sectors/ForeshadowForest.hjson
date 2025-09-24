@@ -1,0 +1,19 @@
+localizedName: フォーシャドゥの森
+description: 冥槍山の奥底に佇む要塞です。攻略は非常に難しく、覚悟を決めて挑みましょう
+sector: 126
+planet: GreenFortress
+attackAfterWaves: true
+difficulty: 10
+research: {
+  parent: LanaMountain
+  requirements: [
+  litholite/100
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: AttackMapCity
+    }
+ ]
+}
+

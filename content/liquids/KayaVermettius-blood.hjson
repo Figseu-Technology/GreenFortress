@@ -1,0 +1,16 @@
+name: カヤ · ヴェルメティウスのオーラ
+description: カヤ · ヴェルメティウスの祭壇から採取した粉末。 Green Fairy  生命を育む存在。  立線界の消滅により、この生物が唯一の緑の妖精となった。
+heatCapacity: 32.6
+radioactivity: 3900
+viscosity: 0.001
+effect: corroded
+gas: true
+color: 2FE240
+barColor: 2FE240
+lightColor: 2FE24088
+research:{
+  parent: KayaVermettius
+  requirements:[
+      KayaVermettius-Crystal/20
+  ]
+}

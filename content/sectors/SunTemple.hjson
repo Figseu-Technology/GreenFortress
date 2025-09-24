@@ -1,0 +1,19 @@
+localizedName: 太陽の神殿
+description: かつて砂漠の王国が存在した場所です。砂漠の女王の無念を晴らすべく、空の神に挑みましょう
+sector: 233
+planet: GreenFortress
+captureWave: 53
+difficulty: 10
+research: {
+  parent: SunDesert
+  requirements: [
+  TiaYustis-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: YustisCastle
+    }
+ ]
+}
+

@@ -1,0 +1,16 @@
+name: セルディニアのオーラ
+description: セルディニアの祭壇から採取した気体。 祭壇の周辺では通常より早く植物が育つようだ。
+heatCapacity: 10.2
+radioactivity: 2800
+viscosity: 0.001
+effect: corroded
+gas: true
+color: 003826
+barColor: 003826
+lightColor: 00382688
+research:{
+  parent: Seldinia
+  requirements:[
+      Seldinia-Crystal/20
+  ]
+}

@@ -1,0 +1,19 @@
+name: Sel-2
+localizedName: 破滅の兆候
+description: 炎の妖精　絶滅と破滅の象徴。　しかし、それは新たな生命が生まれる為の下準備でもある。
+effect: {
+ type: ParticleEffect
+ line: true
+ particles: 6
+ offset: 5
+ lifetime: 22
+ length: 35
+ cone: -360
+ lenFrom": 5
+ lenTo: 0
+ colorFrom: f3e979
+ colorTo: D99F6BFF
+},
+affinities: [electrified, shocked]
+transitionDamage: 7000
+disarm: true

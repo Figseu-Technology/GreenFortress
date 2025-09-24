@@ -1,0 +1,19 @@
+localizedName: 侵食された聖域
+description: ERROR このセクターに関するデータが見つかりません
+sector: 198
+planet: GreenFortress
+captureWave: 80
+difficulty: 6
+research: {
+  parent: GreenField
+  requirements: [
+  Laguna-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: GreenTemple
+    }
+ ]
+}
+

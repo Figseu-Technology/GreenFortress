@@ -1,0 +1,19 @@
+localizedName: 獄海
+description: 葬花に完全に支配されてしまった海です。セクターを制圧し、葬花の発生源を突き止めましょう
+sector: 171
+planet: GreenFortress
+captureWave: 30
+difficulty: 10
+research: {
+  parent: ShadowCave
+  requirements: [
+  KayaVermettius-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: YustisCastle
+    }
+ ]
+}
+

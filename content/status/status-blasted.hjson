@@ -1,0 +1,19 @@
+name: status-blasted
+localizedName: 山神の祟り
+description: 花の妖精　愛と存続の象徴。
+effect: {
+ type: ParticleEffect
+ line: true
+ particles: 5
+ lifetime: 10
+ length: 35
+ cone: -360
+ lenFrom: 5
+ lenTo: 0
+ colorFrom: A9D8FFFF
+ colorTo: 66B1FFFF
+},
+damage: 100
+speedMultiplier: 0.0
+reloadMultiplier: 0.0
+permanent: true

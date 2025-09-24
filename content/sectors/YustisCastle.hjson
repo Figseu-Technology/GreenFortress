@@ -1,0 +1,19 @@
+localizedName: 岩蜘蛛の根城
+description: 不思議な力により浮遊している岩蜘蛛の住まう土地です。岩蜘蛛との決着を付け、古の宝玉を研究しましょう
+sector: 7
+planet: GreenFortress
+captureWave: 50
+difficulty: 8
+research: {
+  parent: Renesys
+  requirements: [
+  Seldinia-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: LanaMountain
+    }
+ ]
+}
+

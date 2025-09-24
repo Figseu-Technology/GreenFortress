@@ -1,0 +1,19 @@
+localizedName: 決戦場
+description: かつて山の神によって滅ぼされた城です。城の奥地に残された祭壇へ向かい、葬花の発生源への道を切り開きましょう
+sector: 29
+planet: GreenFortress
+captureWave: 40
+difficulty: 10
+research: {
+  parent: LagunaTemple
+  requirements: [
+  Filarea-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: MerrillVolcano
+    }
+ ]
+}
+

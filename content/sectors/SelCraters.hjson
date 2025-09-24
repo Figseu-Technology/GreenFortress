@@ -1,0 +1,19 @@
+localizedName: 不穏に包まれた戦地
+description: 戦争の足跡が残るこの大地は、葬花に支配され生命を脅かす地になっています。エリアを制圧し、葬花の侵攻を止めましょう!
+sector: 192
+planet: GreenFortress
+captureWave: 20
+difficulty: 3
+research: {
+  parent: ZenoForest
+  requirements: [
+  surge-alloy/50
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ZenoForest
+    }
+ ]
+}
+

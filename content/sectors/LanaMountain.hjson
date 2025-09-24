@@ -1,0 +1,19 @@
+localizedName: 冥槍山
+description: 山神と呼ばれる生物が初めて確認されたとされる険しい山脈です。
+sector: 65
+planet: GreenFortress
+captureWave: 40
+difficulty: 7
+research: {
+  parent: Sel-Flower-Crystal
+  requirements: [
+  Sel-Flower-Crystal/100
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: SunDesert
+    }
+ ]
+}
+

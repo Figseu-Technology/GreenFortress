@@ -1,0 +1,18 @@
+name: 超圧縮葬華ガス
+description: 古代の技術によって普通の葬花結晶よりも濃縮された蜜。非常に爆発性が高く、コア周辺での取り扱いは避けたほうがいいでしょう
+details: 麗命石の起源を辿ると葬花の蜜が何らかの力により通常よりも濃縮されて発生しているようだ。
+heatCapacity: 59.9
+explosiveness: 2900.00
+temperature: 7.9
+viscosity: 0
+gas: true
+effect: corroded
+color: FF3C41
+barColor: FF3C41
+lightColor: FF8F9588
+research:{
+  parent: GreenFortress
+  requirements:[
+      End-Key/20
+  ]
+}

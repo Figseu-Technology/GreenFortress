@@ -1,0 +1,16 @@
+name: フィルレーア · セレアスのオーラ
+description: フィルレーア · セレアスの祭壇から採取した粉末。 虚数の世界を支配する力があると言われている。
+heatCapacity: 90.0
+radioactivity: 3900
+viscosity: 0.001
+effect: corroded
+gas: true
+color: 2F07A4
+barColor: 2F07A4
+lightColor: 2F07A488
+research:{
+  parent: FilareaCereas
+  requirements:[
+      Filarea-Crystal/20
+  ]
+}

@@ -1,0 +1,19 @@
+localizedName: メリル火山
+description: 緑の聖地の東に位置する活火山です。非常に危険な場所の為、ある程度資源を整えて挑みましょう。
+sector: 127
+planet: GreenFortress
+captureWave: 60
+difficulty: 10
+research: {
+  parent: GreenField
+  requirements: [
+  plastanium/200
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: GreenField
+    }
+ ]
+}
+

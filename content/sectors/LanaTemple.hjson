@@ -1,0 +1,19 @@
+localizedName: 月の神殿
+description: 山の神を祀る古代の神殿です。ここで決着をつけ、全ての神殿のエネルギーを正常に戻しましょう
+sector: 259
+planet: GreenFortress
+captureWave: 50
+difficulty: 10
+research: {
+  parent: SunDesert
+  requirements: [
+  Andrastyrs-Crystal/10
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: LastCastle
+    }
+ ]
+}
+

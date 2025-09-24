@@ -1,0 +1,12 @@
+localizedName: 奈落への道
+description: 謎の地震によって発生した大穴。その先には虚数の世界が広がっていた
+sector: 8
+attackAfterWaves: true
+difficulty: 10
+research: {
+  parent: Imaginary
+  requirements: [
+  Sel-Flower-Crystal/50
+ ]
+}
+

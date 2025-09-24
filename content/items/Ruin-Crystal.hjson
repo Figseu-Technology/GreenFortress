@@ -1,0 +1,13 @@
+name: 古代機械の残骸
+description: 大昔の機械から取り出した残骸。まばらに設計図が残されており、それらしい物を再現することが可能
+details: かつて存在した虚数世界の文明は 火の神 と呼ばれる生物に喰われ、跡形もなく滅ぼされた。
+hardness: 90
+cost: 100
+color: 715D3B
+
+research:{
+  parent: Imaginary
+  requirements:[
+      litholite/100
+  ]
+}

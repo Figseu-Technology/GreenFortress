@@ -1,0 +1,19 @@
+localizedName: 都市
+description: トラップ満載のこのセクターは電源を捨てている設備を破壊しないことです。破壊してしまうと攻略が難しくなります
+sector: 111
+planet: GreenFortress
+attackAfterWaves: true
+difficulty: 10
+research: {
+  parent: SelCraters
+  requirements: [
+  surge-alloy/100
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: SelCraters
+    }
+ ]
+}
+

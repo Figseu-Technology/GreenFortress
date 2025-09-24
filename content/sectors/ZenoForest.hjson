@@ -1,0 +1,19 @@
+localizedName: 凍てつく森の奥地
+description: 凍った森の奥に位置する場所です。ここでサージ合金を研究しましょう
+sector: 215
+planet: GreenFortress
+captureWave: 40
+difficulty: 5
+research: {
+  parent: Zeno
+  requirements: [
+  lead/500
+  ]
+  objectives: [
+    {
+      type: SectorComplete
+      preset: Zeno
+    }
+ ]
+}
+

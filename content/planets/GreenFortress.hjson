@@ -1,0 +1,69 @@
+localizedName: Green Fortress
+	mesh: {
+		type: NoiseMesh
+  seed: 143
+  divisions: 5
+	 color1: 12AF22
+		color2: 7DD2A3
+  colorScale: 3
+  radius: 0.9
+  octaves: 2
+  persistence: 1
+  scale: 1
+  mag: 0.7
+},
+	cloudMesh: {
+		type: HexSkyMesh
+		seed: 107
+		speed: 1.1
+		radius: 0.1
+		divisions: 6
+		color: A6F2C8
+		octaves: 4
+		persistence: 0.7
+		scl: 1
+		thresh: 0.5
+},
+generator: {
+		alt: true
+  baseseed: 325
+  berylChance:0.20
+  carbonChance:0.20
+  ferricChance:0.20
+  iceChance:0.12
+  min: 120
+  max: 978
+  octaves: 1
+  radMax: 620
+  radMin: 225
+  persistance: 0.09
+  scl: 4.52
+  type: SerpuloPlanetGenerator
+  waterOffset: 0.05
+}
+accessible: true
+sectorSize: 3
+alwaysUnlocked: true
+startSector: 183
+visible: true
+hasAtmosphere: true
+bloom: true
+orbitSpacing: 1
+solarSystem: sun
+parent: sun
+orbitRadius: 135
+drawOrbit: false
+tidalLock: false
+iconColor: 17D52A
+prebuildBase: true
+allowWaves: true
+prebuildBase: true
+allowWaveSimulation: true
+allowSectorInvasion: true
+allowLaunchToNumbered: false
+clearSectorOnLose: true
+defaultCore: Green
+icon: planet
+hiddenItems: [
+    beryllium, tungsten, carbide
+]

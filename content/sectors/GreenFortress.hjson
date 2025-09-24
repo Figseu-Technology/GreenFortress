@@ -1,0 +1,24 @@
+localizedName: 旧都市
+description: 遂に葬花の発生源を突き止めました。生半可な設備では一瞬で消されてしまうでしょう。覚悟を決めて挑みましょう
+sector: 66
+planet: GreenFortress
+attackAfterWaves: true
+difficulty: 10
+research: {
+  parent: AttackMapCity
+  requirements: [
+  Seldinia-Crystal/10
+  TiaYustis-Crystal/10
+  KayaVermettius-Crystal/10
+  Laguna-Crystal/10
+  Filarea-Crystal/10
+  Andrastyrs-Crystal/10
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: ForeshadowForest
+    }
+ ]
+}
+

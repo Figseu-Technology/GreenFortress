@@ -1,0 +1,19 @@
+localizedName: 蒼藍の砂浜
+description: 聖域の南西に位置する敵の要塞です。海軍部隊を整備しつつセクターを制圧しましょう。
+sector: 197
+planet: GreenFortress
+attackAfterWaves: true
+difficulty: 8
+research: {
+  parent: GreenField
+  requirements: [
+  plastanium/350
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: GreenField
+    }
+ ]
+}
+

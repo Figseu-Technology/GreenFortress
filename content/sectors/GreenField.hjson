@@ -1,0 +1,19 @@
+localizedName: 緑の聖域
+description: 緑に囲まれた自然の聖域です。トキソピッドの襲撃に備えつつ、敵基地を制圧しましょう。
+sector: 71
+planet: GreenFortress
+attackAfterWaves: true
+difficulty: 8
+research: {
+  parent: SunDesert
+  requirements: [
+  plastanium/100
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: SunDesert
+    }
+ ]
+}
+

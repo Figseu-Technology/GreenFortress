@@ -1,0 +1,18 @@
+name: ラグナ · バーレーンのオーラ
+description: ラグナ · バーレーンの祭壇から採取した気体。 死を司る赤い彗星の伝承は未だに解読されていない。
+heatCapacity: 10.2
+radioactivity: 1500
+explosiveness: 17.00
+flammability: 20
+viscosity: 0.001
+effect: corroded
+gas: true
+color: B45C7B
+barColor: B45C7B
+lightColor: B45C7B88
+research:{
+  parent: LagunaVarlane
+  requirements:[
+      Laguna-Crystal/20
+  ]
+}

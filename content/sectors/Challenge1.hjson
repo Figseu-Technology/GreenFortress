@@ -1,0 +1,18 @@
+localizedName: 試練の霊峰
+description: 緑の大地に踏み入る前に、自身の腕前を試してみましょう
+sector: 51
+attackAfterWaves: true
+difficulty: 10
+research: {
+  parent: Green
+  requirements: [
+  surge-alloy/50
+ ]
+objectives: [
+    {
+      type: SectorComplete
+      preset: planetaryTerminal
+    }
+ ]
+}
+
