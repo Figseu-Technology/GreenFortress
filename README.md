@@ -16,7 +16,6 @@ The Green Fortress, will be added as a new planet.
 
 ```
 --------------------------------------
-Music Name : [楽曲名]
 Music by Professional Union Co
 https://github.com/Figseu-Technology/GreenFortress
 --------------------------------------
